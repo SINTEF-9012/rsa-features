@@ -1,4 +1,4 @@
 rsa-features
 ============
 
-Rational Software Architect (RSA) features (plug-ins)
+UML Profiles for Rational Software Architect (RSA features)

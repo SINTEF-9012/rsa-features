@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="org.sintef.help.soa_methodology"
+   name="Help for ATHENA SOA Methodology (Plugin)"
+   version="0.1.0"
+   provider-name="SINTEF ICT"
+   class="Help_for_ATHENA_SOA_Methodology.Help_for_ATHENA_SOA_MethodologyPlugin">
+
+   <runtime>
+      <library name="soa_methodology.jar">
+         <export name="*"/>
+      </library>
+   </runtime>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.help"/>
+   </requires>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            primary="true"
+            file="toc.xml"/>
+   </extension>
+
+</plugin>

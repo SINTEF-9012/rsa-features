@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.sintef.rsm.uml.eai.feature"
+      label="UML Profile for EAI (Feature)"
+      version="0.9.0"
+      provider-name="SINTEF ICT">
+   <install-handler/>
+
+   <description url="http://www.modelbased.net/rsm/update/site.xml">
+      UML Profile for Enterprise Application Integration (EAI).
+Provides a  metadata interchange standard for information about accessing application interfaces. The goal is to simplify application integration by standardizing application metadata for invoking and translating application information.
+http://www.omg.org/technology/documents/formal/eai.htm
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright © 2004-2009 SINTEF ICT. All rights reserved. This software and the accompanying materials are made available under the terms of the Eclipse Public License v1.0, which accompanies this distribution and is available at http://www.eclipse.org/legal/epl-v10.html.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      Licensed under the Eclipse Public License v1.0. You may obtain
+a copy of the license at http://www.eclipse.org/legal/epl-v10.html.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the license for the specific language governing
+permissions and limitations under the license.
+   </license>
+
+   <url>
+      <update url="http://www.modelbased.net/rsm/update/site.xml"/>
+   </url>
+
+   <requires>
+      <import plugin="com.ibm.xtools.emf.msl"/>
+      <import plugin="com.ibm.xtools.uml.msl"/>
+   </requires>
+
+   <plugin
+         id="org.sintef.rsm.uml.eai.profile"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>

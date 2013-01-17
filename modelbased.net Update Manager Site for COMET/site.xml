@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="web/site.xsl"?>
+<site>
+   <description url="http://www.modelbased.net/comet/update">
+      COMET features for Rational Software Modeler (RSM)
+   </description>
+   <feature url="features/org.sintef.rsm.comet.bm.feature_1.2.0.jar" id="org.sintef.rsm.comet.bm.feature" version="1.2.0">
+      <category name="COMET Business Modelling"/>
+   </feature>
+   <feature url="features/org.sintef.rsm.comet.rm.feature_1.2.0.jar" id="org.sintef.rsm.comet.rm.feature" version="1.2.0">
+      <category name="COMET Requirements Modelling"/>
+   </feature>
+   <feature url="features/org.sintef.rsm.comet.sam.feature_1.2.0.jar" id="org.sintef.rsm.comet.sam.feature" version="1.2.0">
+      <category name="COMET Service Architecture Modelling"/>
+   </feature>
+   <category-def name="COMET Business Modelling" label="COMET Business Modelling"/>
+   <category-def name="COMET Requirements Modelling" label="COMET Requirements Modelling"/>
+   <category-def name="COMET Service Architecture Modelling" label="COMET Service Architecture Modelling"/>
+</site>

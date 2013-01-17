@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Update Site' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.compressed' value='false'/>
+    <property name='p2.timestamp' value='1301573730412'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='72'>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.feature.bmm' version='0.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1022'/>
+        <property name='download.size' value='1022'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.bmm.profile' version='0.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='19174'/>
+        <property name='download.size' value='19174'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.bmm' version='0.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4917'/>
+        <property name='download.size' value='4917'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.uml.soaml.feature' version='0.3.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6869'/>
+        <property name='download.size' value='6869'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.spem.profile' version='0.9.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='116698'/>
+        <property name='download.size' value='116698'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.soaml.template' version='0.3.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='2729'/>
+        <property name='download.size' value='2729'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.uml.spem2.feature' version='0.3.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6984'/>
+        <property name='download.size' value='6984'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.uml.eai.feature' version='0.9.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6882'/>
+        <property name='download.size' value='6882'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.uml.spem2.feature' version='0.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6983'/>
+        <property name='download.size' value='6983'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.uml.profile.spem' version='0.7.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='74262'/>
+        <property name='download.size' value='74262'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.uml.profile.spem' version='0.8.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='116525'/>
+        <property name='download.size' value='116525'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.spem.feature' version='0.8.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='727'/>
+        <property name='download.size' value='727'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.spem.feature' version='0.7.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='728'/>
+        <property name='download.size' value='728'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.spem.feature' version='0.9.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1164'/>
+        <property name='download.size' value='1164'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.uml.swradio.feature' version='0.9.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6889'/>
+        <property name='download.size' value='6889'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.uml.ejb.feature' version='0.9.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1333'/>
+        <property name='download.size' value='1333'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.soaml' version='0.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='38597'/>
+        <property name='download.size' value='38597'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.soaml' version='0.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='7674'/>
+        <property name='download.size' value='7674'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.spem2.template' version='0.3.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='3353'/>
+        <property name='download.size' value='3353'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.spem2.template' version='0.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='2720'/>
+        <property name='download.size' value='2720'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.uml.ws.feature' version='0.9.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6790'/>
+        <property name='download.size' value='6790'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.uml.bmm.feature' version='0.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6853'/>
+        <property name='download.size' value='6853'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.ws.bpel.profile' version='0.9.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='9088'/>
+        <property name='download.size' value='9088'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.sysml.profile' version='0.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='35197'/>
+        <property name='download.size' value='35197'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.spem2' version='0.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='116724'/>
+        <property name='download.size' value='116724'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.uml.spem.feature' version='0.9.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1162'/>
+        <property name='download.size' value='1162'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.bmm.template' version='0.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='2649'/>
+        <property name='download.size' value='2649'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.library.xsd_types' version='0.8.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='6010'/>
+        <property name='download.size' value='6010'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.spem' version='0.9.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='116716'/>
+        <property name='download.size' value='116716'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.library.xsd_types' version='0.7.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='5700'/>
+        <property name='download.size' value='5700'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.ws.wsdl.profile' version='0.9.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='15242'/>
+        <property name='download.size' value='15242'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.web_services.feature' version='0.8.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1059'/>
+        <property name='download.size' value='1059'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.web_services.feature' version='0.7.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='765'/>
+        <property name='download.size' value='765'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.template.soaml' version='0.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='2692'/>
+        <property name='download.size' value='2692'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.uml.profile.bpel' version='0.7.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='8791'/>
+        <property name='download.size' value='8791'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.template.spem2' version='0.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='2683'/>
+        <property name='download.size' value='2683'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.sysml.template' version='0.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='2259'/>
+        <property name='download.size' value='2259'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.feature.popx' version='0.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1022'/>
+        <property name='download.size' value='1022'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.uml.profile.xsd' version='0.7.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='20236'/>
+        <property name='download.size' value='20236'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.popx.profile' version='0.9.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='8601'/>
+        <property name='download.size' value='8601'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.uml.profile.sw_radio' version='0.7.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='18110'/>
+        <property name='download.size' value='18110'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.uml.profile.eai' version='0.7.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='25982'/>
+        <property name='download.size' value='25982'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.ws.xsd.library' version='0.9.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='6004'/>
+        <property name='download.size' value='6004'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.sw_radio.feature' version='0.8.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1027'/>
+        <property name='download.size' value='1027'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.uml.sysml.feature' version='0.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6885'/>
+        <property name='download.size' value='6885'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.sw_radio.feature' version='0.7.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='732'/>
+        <property name='download.size' value='732'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.uml.profile.wsdl' version='0.7.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='14947'/>
+        <property name='download.size' value='14947'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.uml.profile.ejb' version='0.7.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='10593'/>
+        <property name='download.size' value='10593'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.feature.soaml' version='0.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1018'/>
+        <property name='download.size' value='1018'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.feature.soaml' version='0.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1277'/>
+        <property name='download.size' value='1277'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.soaml.profile' version='0.3.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='39178'/>
+        <property name='download.size' value='39178'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.bpel' version='0.8.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='9103'/>
+        <property name='download.size' value='9103'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.xsd' version='0.8.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='20548'/>
+        <property name='download.size' value='20548'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.feature.eai' version='0.7.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='723'/>
+        <property name='download.size' value='723'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.spem2.feature' version='0.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1393'/>
+        <property name='download.size' value='1393'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.feature.eai' version='0.8.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1288'/>
+        <property name='download.size' value='1288'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.spem2.feature' version='0.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1053'/>
+        <property name='download.size' value='1053'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.eai.profile' version='0.9.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='26275'/>
+        <property name='download.size' value='26275'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.spem2.profile' version='0.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='137353'/>
+        <property name='download.size' value='137353'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.spem2.profile' version='0.3.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='187708'/>
+        <property name='download.size' value='187708'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.eai' version='0.8.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='26293'/>
+        <property name='download.size' value='26293'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.sw_radio' version='0.8.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='18424'/>
+        <property name='download.size' value='18424'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.uml.popx.feature' version='0.9.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1297'/>
+        <property name='download.size' value='1297'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.wsdl' version='0.8.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='15259'/>
+        <property name='download.size' value='15259'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.swradio.profile' version='0.9.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='18402'/>
+        <property name='download.size' value='18402'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.popx' version='0.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='7674'/>
+        <property name='download.size' value='7674'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.feature.ejb' version='0.7.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='725'/>
+        <property name='download.size' value='725'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.feature.ejb' version='0.8.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1020'/>
+        <property name='download.size' value='1020'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.ejb' version='0.8.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='10904'/>
+        <property name='download.size' value='10904'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.profile.ejb' version='0.7.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='10905'/>
+        <property name='download.size' value='10905'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.ejb.profile' version='0.9.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='11467'/>
+        <property name='download.size' value='11467'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.uml.ws.xsd.profile' version='0.9.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='21120'/>
+        <property name='download.size' value='21120'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

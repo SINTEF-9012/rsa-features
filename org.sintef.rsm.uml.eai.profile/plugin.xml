@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="org.sintef.rsm.uml.eai.profile"
+   name="UML Profile for EAI (Plugin)"
+   version="0.9.0"
+   provider-name="SINTEF ICT">
+
+  <requires>
+     <import plugin="com.ibm.xtools.emf.msl"/>
+     <import plugin="com.ibm.xtools.uml.msl"/>
+  </requires>
+
+  <extension id="EAI_PROFILES" name="EAI_PROFILES" point="org.eclipse.gmf.runtime.emf.core.Pathmaps">
+      <pathmap path="Profiles" name="EAI_PROFILES" />
+  </extension>
+
+  <extension id="EAI_PROFILE" name="EAI_PROFILE" point="com.ibm.xtools.uml.msl.UMLProfiles">
+     <UMLProfile name="EAI" path="pathmap://EAI_PROFILES/EAIProfile.epx" visible="true" /> 
+  </extension>
+
+</plugin>

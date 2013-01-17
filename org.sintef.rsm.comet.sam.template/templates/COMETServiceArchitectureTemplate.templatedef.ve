@@ -1,0 +1,6 @@
+name=COMET Service Architecture Model
+description=Create a new COMET service architecture model.
+modelName=COMET Service Architecture Model
+id=org.sintef.rsm.comet.sam.template.COMETServiceArchitectureTemplate
+templateFile=COMETServiceArchitectureTemplate.emx
+icon=COMETServiceArchitectureTemplate.gif

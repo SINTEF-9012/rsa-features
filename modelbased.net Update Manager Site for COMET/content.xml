@@ -1,0 +1,1675 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository class='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'?>
+<repository name='file:/W:/Workspaces/RSM_Features/modelbased.net Update Manager Site for COMET/ - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.compressed' value='false'/>
+    <property name='p2.timestamp' value='1237956160404'/>
+  </properties>
+  <references size='4'>
+    <repository url='http://www.modelbased.net/comet/update/site.xml' type='0' options='0'/>
+    <repository url='http://www.modelbased.net/comet/update/site.xml' type='1' options='0'/>
+    <repository url='http://www.modelbased.net/comet/' type='0' options='0'/>
+    <repository url='http://www.modelbased.net/comet/' type='1' options='0'/>
+  </references>
+  <units size='50'>
+    <unit id='org.sintef.comet.uml.template.bm' version='1.1.0'>
+      <update id='org.sintef.comet.uml.template.bm' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Model Template (Plugin)'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.bm' version='1.1.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.template.bm' version='1.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.bm' version='1.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.template.bm; singleton:=true&#xA;Bundle-Vendor: &#xA;Bundle-Name: COMET Business Model Template (Plugin)&#xA;Bundle-Version: 1.1.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.modeler.ui.wizards
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.template.bm' version='1.0.0'>
+      <update id='org.sintef.comet.uml.template.bm' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Model Template (Plugin)'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.bm' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.template.bm' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.bm' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.template.bm; singleton:=true&#xA;Bundle-Vendor: &#xA;Bundle-Name: COMET Business Model Template (Plugin)&#xA;Bundle-Version: 1.0.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.modeler.ui.wizards
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.sam.feature.jar' version='1.0.0'>
+      <update id='org.sintef.comet.uml.feature.sam.feature.jar' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET service architecture modelling method feature for Rational&#xA;Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.sam.feature.jar' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.comet.uml.feature.sam' version='1.0.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.sam' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          © 2004-2006 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2006 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.sam.feature.jar' version='1.1.0'>
+      <update id='org.sintef.comet.uml.feature.sam.feature.jar' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET service architecture modelling method feature for Rational&#xA;Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.sam.feature.jar' version='1.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.comet.uml.feature.sam' version='1.1.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.sam' version='1.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.profile.sam' version='1.1.0'>
+      <update id='org.sintef.comet.uml.profile.sam' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Profile (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.sam' version='1.1.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.profile.sam' version='1.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.sam' version='1.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.profile.sam; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Service Architecture Profile (Plugin)&#xA;Bundle-Version: 1.1.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.emf.msl,&#xA; com.ibm.xtools.uml.msl
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.profile.sam' version='1.0.0'>
+      <update id='org.sintef.comet.uml.profile.sam' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Profile (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.sam' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.profile.sam' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.uml2.msl' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.sam' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.profile.sam; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Service Architecture Profile (Plugin)&#xA;Bundle-Version: 1.0.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.emf.msl,&#xA; com.ibm.xtools.uml2.msl
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='tooling.osgi.bundle.default' version='1.0.0' singleton='false'>
+      <hostRequirements size='1'>
+        <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='0.0.0' multiple='true' greedy='false'/>
+      </hostRequirements>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='tooling.osgi.bundle.default' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.flavor' name='tooling' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='0.0.0' multiple='true' greedy='false'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='4'>
+          <instruction key='uninstall'>
+            uninstallBundle(bundle:${artifact})
+          </instruction>
+          <instruction key='configure'>
+            setStartLevel(startLevel:4);
+          </instruction>
+          <instruction key='install'>
+            installBundle(bundle:${artifact})
+          </instruction>
+          <instruction key='unconfigure'>
+
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='tooling.org.eclipse.update.feature.default' version='1.0.0' singleton='false'>
+      <hostRequirements size='1'>
+        <required namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' range='0.0.0' optional='true' multiple='true' greedy='false'/>
+      </hostRequirements>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='tooling.org.eclipse.update.feature.default' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.flavor' name='tooling' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' range='0.0.0' optional='true' multiple='true' greedy='false'/>
+      </requires>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <touchpoint id='null' version='0.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='uninstall'>
+            uninstallFeature(feature:${artifact},featureId:default,featureVersion:default)
+          </instruction>
+          <instruction key='install'>
+            installFeature(feature:${artifact},featureId:default,featureVersion:default)
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.bm.feature.jar' version='1.0.0'>
+      <update id='org.sintef.comet.uml.feature.bm.feature.jar' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET business modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.bm.feature.jar' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.comet.uml.feature.bm' version='1.0.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.bm' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          © 2004-2006 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2006 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.bm.feature.jar' version='1.1.0'>
+      <update id='org.sintef.comet.uml.feature.bm.feature.jar' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET business modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.bm.feature.jar' version='1.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.comet.uml.feature.bm' version='1.1.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.bm' version='1.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.template.rm' version='1.1.0'>
+      <update id='org.sintef.comet.uml.template.rm' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Model Template (Plugin)'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.rm' version='1.1.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.template.rm' version='1.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.rm' version='1.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.template.rm; singleton:=true&#xA;Bundle-Vendor: &#xA;Bundle-Name: COMET Requirements Model Template (Plugin)&#xA;Bundle-Version: 1.1.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.modeler.ui.wizards
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.template.rm' version='1.0.0'>
+      <update id='org.sintef.comet.uml.template.rm' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Model Template (Plugin)'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.rm' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.template.rm' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.rm' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.template.rm; singleton:=true&#xA;Bundle-Vendor: &#xA;Bundle-Name: COMET Requirements Model Template (Plugin)&#xA;Bundle-Version: 1.0.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.modeler.ui.wizards
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.profile.bm' version='1.0.0'>
+      <update id='org.sintef.comet.uml.profile.bm' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Profile (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.bm' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.profile.bm' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.uml2.msl' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.bm' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.profile.bm; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Business Profile (Plugin)&#xA;Bundle-Version: 1.0.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.emf.msl,&#xA; com.ibm.xtools.uml2.msl
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.profile.bm' version='1.1.0'>
+      <update id='org.sintef.comet.uml.profile.bm' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Profile (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.bm' version='1.1.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.profile.bm' version='1.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.bm' version='1.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.profile.bm; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Business Profile (Plugin)&#xA;Bundle-Version: 1.1.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.emf.msl,&#xA; com.ibm.xtools.uml.msl
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.rm.feature.jar' version='1.1.0'>
+      <update id='org.sintef.comet.uml.feature.rm.feature.jar' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET requirements modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.rm.feature.jar' version='1.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.comet.uml.feature.rm' version='1.1.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.rm' version='1.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.rm.feature.jar' version='1.0.0'>
+      <update id='org.sintef.comet.uml.feature.rm.feature.jar' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET requirements modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.rm.feature.jar' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.comet.uml.feature.rm' version='1.0.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.rm' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          © 2004-2006 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2006 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='config.a.jre' version='1.6.0' singleton='false'>
+      <hostRequirements size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='a.jre' range='1.6.0'/>
+      </hostRequirements>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='config.a.jre' version='1.6.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='a.jre' range='1.6.0'/>
+      </requires>
+      <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='install'>
+
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.sam.feature.group' version='1.1.0' singleton='false'>
+      <update id='org.sintef.comet.uml.feature.sam.feature.group' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET service architecture modelling method feature for Rational&#xA;Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.sam.feature.group' version='1.1.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.sam' range='[1.1.0,1.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.sam' range='[1.1.0,1.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.sam.feature.jar' range='[1.1.0,1.1.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.sam.feature.group' version='1.0.0' singleton='false'>
+      <update id='org.sintef.comet.uml.feature.sam.feature.group' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET service architecture modelling method feature for Rational&#xA;Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.sam.feature.group' version='1.0.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml2.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.sam' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.sam' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.sam.feature.jar' range='[1.0.0,1.0.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          © 2004-2006 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2006 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.profile.rm' version='1.0.0'>
+      <update id='org.sintef.comet.uml.profile.rm' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Profile (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.rm' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.profile.rm' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.uml2.msl' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.rm' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.profile.rm; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Requirements Profile (Plugin)&#xA;Bundle-Version: 1.0.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.emf.msl,&#xA; com.ibm.xtools.uml2.msl
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.profile.rm' version='1.1.0'>
+      <update id='org.sintef.comet.uml.profile.rm' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Profile (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.rm' version='1.1.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.profile.rm' version='1.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.rm' version='1.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.profile.rm; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Requirements Profile (Plugin)&#xA;Bundle-Version: 1.1.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.emf.msl,&#xA; com.ibm.xtools.uml.msl
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.bm.feature.group' version='1.1.0' singleton='false'>
+      <update id='org.sintef.comet.uml.feature.bm.feature.group' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET business modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.bm.feature.group' version='1.1.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.bm' range='[1.1.0,1.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.bm' range='[1.1.0,1.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.bm.feature.jar' range='[1.1.0,1.1.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.bm.feature.group' version='1.0.0' singleton='false'>
+      <update id='org.sintef.comet.uml.feature.bm.feature.group' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET business modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.bm.feature.group' version='1.0.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml2.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.bm' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.bm' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.bm.feature.jar' range='[1.0.0,1.0.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          © 2004-2006 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2006 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='tooling.source.default' version='1.0.0' singleton='false'>
+      <hostRequirements size='1'>
+        <required namespace='org.eclipse.equinox.p2.eclipse.type' name='source' range='0.0.0' optional='true' multiple='true' greedy='false'/>
+      </hostRequirements>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+      </properties>
+      <provides size='2'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='tooling.source.default' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.flavor' name='tooling' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='org.eclipse.equinox.p2.eclipse.type' name='source' range='0.0.0' optional='true' multiple='true' greedy='false'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='uninstall'>
+            removeSourceBundle(bundle:${artifact})
+          </instruction>
+          <instruction key='install'>
+            addSourceBundle(bundle:${artifact})
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='a.jre' version='1.6.0' singleton='false'>
+      <provides size='117'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='a.jre' version='1.6.0'/>
+        <provided namespace='java.package' name='javax.accessibility' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.activity' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.crypto' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.crypto.interfaces' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.crypto.spec' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.imageio' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.imageio.event' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.imageio.metadata' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.imageio.plugins.bmp' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.imageio.plugins.jpeg' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.imageio.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.imageio.stream' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.management' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.management.loading' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.management.modelmbean' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.management.monitor' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.management.openmbean' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.management.relation' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.management.remote' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.management.remote.rmi' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.management.timer' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.naming' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.naming.directory' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.naming.event' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.naming.ldap' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.naming.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.net' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.net.ssl' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.print' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.print.attribute' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.print.attribute.standard' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.print.event' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.rmi' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.rmi.CORBA' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.rmi.ssl' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.security.auth' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.security.auth.callback' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.security.auth.kerberos' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.security.auth.login' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.security.auth.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.security.auth.x500' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.security.cert' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.security.sasl' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.sound.midi' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.sound.midi.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.sound.sampled' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.sound.sampled.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.sql' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.sql.rowset' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.sql.rowset.serial' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.sql.rowset.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.border' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.colorchooser' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.event' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.filechooser' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.plaf' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.plaf.basic' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.plaf.metal' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.plaf.multi' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.plaf.synth' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.table' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.text' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.text.html' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.text.html.parser' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.text.rtf' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.tree' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.swing.undo' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.transaction' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.transaction.xa' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.datatype' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.namespace' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.parsers' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.transform' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.transform.dom' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.transform.sax' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.transform.stream' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.validation' version='0.0.0'/>
+        <provided namespace='java.package' name='javax.xml.xpath' version='0.0.0'/>
+        <provided namespace='java.package' name='org.ietf.jgss' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.CORBA' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.CORBA_2_3' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.CORBA_2_3.portable' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.CORBA.DynAnyPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.CORBA.ORBPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.CORBA.portable' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.CORBA.TypeCodePackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.CosNaming' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.CosNaming.NamingContextExtPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.CosNaming.NamingContextPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.Dynamic' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.DynamicAny' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.DynamicAny.DynAnyFactoryPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.DynamicAny.DynAnyPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.IOP' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.IOP.CodecFactoryPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.IOP.CodecPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.Messaging' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.PortableInterceptor' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.PortableInterceptor.ORBInitInfoPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.PortableServer' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.PortableServer.CurrentPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.PortableServer.POAManagerPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.PortableServer.POAPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.PortableServer.portable' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.PortableServer.ServantLocatorPackage' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.SendingContext' version='0.0.0'/>
+        <provided namespace='java.package' name='org.omg.stub.java.rmi' version='0.0.0'/>
+        <provided namespace='java.package' name='org.w3c.dom' version='0.0.0'/>
+        <provided namespace='java.package' name='org.w3c.dom.bootstrap' version='0.0.0'/>
+        <provided namespace='java.package' name='org.w3c.dom.events' version='0.0.0'/>
+        <provided namespace='java.package' name='org.w3c.dom.ls' version='0.0.0'/>
+        <provided namespace='java.package' name='org.xml.sax' version='0.0.0'/>
+        <provided namespace='java.package' name='org.xml.sax.ext' version='0.0.0'/>
+        <provided namespace='java.package' name='org.xml.sax.helpers' version='0.0.0'/>
+      </provides>
+      <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.rm.feature.group' version='1.0.0' singleton='false'>
+      <update id='org.sintef.comet.uml.feature.rm.feature.group' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET requirements modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.rm.feature.group' version='1.0.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml2.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.rm' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.rm' range='[1.0.0,1.0.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.rm.feature.jar' range='[1.0.0,1.0.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          © 2004-2006 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2006 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.rm.feature.group' version='1.1.0' singleton='false'>
+      <update id='org.sintef.comet.uml.feature.rm.feature.group' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET requirements modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.rm.feature.group' version='1.1.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.rm' range='[1.1.0,1.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.rm' range='[1.1.0,1.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.rm.feature.jar' range='[1.1.0,1.1.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.template.sam' version='1.1.0'>
+      <update id='org.sintef.comet.uml.template.sam' range='[0.0.0,1.1.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Model Template (Plugin)'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.sam' version='1.1.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.template.sam' version='1.1.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.sam' version='1.1.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.template.sam; singleton:=true&#xA;Bundle-Vendor: &#xA;Bundle-Name: COMET Service Architecture Model Template (Plugin)&#xA;Bundle-Version: 1.1.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.modeler.ui.wizards
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.template.sam' version='1.0.0'>
+      <update id='org.sintef.comet.uml.template.sam' range='[0.0.0,1.0.0)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Model Template (Plugin)'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.sam' version='1.0.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.template.sam' version='1.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.sam' version='1.0.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.template.sam; singleton:=true&#xA;Bundle-Vendor: &#xA;Bundle-Name: COMET Service Architecture Model Template (Plugin)&#xA;Bundle-Version: 1.0.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.modeler.ui.wizards
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.template.bm' version='1.1.1'>
+      <update id='org.sintef.comet.uml.template.bm' range='[0.0.0,1.1.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Model Template (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.bm' version='1.1.1'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.template.bm' version='1.1.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.bm' version='1.1.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.template.bm; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Business Model Template (Plugin)&#xA;Bundle-Version: 1.1.1&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.modeler.ui.wizards
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.sam.feature.jar' version='1.1.1'>
+      <update id='org.sintef.comet.uml.feature.sam.feature.jar' range='[0.0.0,1.1.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET service architecture modelling method feature for Rational&#xA;Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.sam.feature.jar' version='1.1.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.comet.uml.feature.sam' version='1.1.1'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.sam' version='1.1.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.bm.feature.jar' version='1.1.1'>
+      <update id='org.sintef.comet.uml.feature.bm.feature.jar' range='[0.0.0,1.1.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET business modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.bm.feature.jar' version='1.1.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.comet.uml.feature.bm' version='1.1.1'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.bm' version='1.1.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.template.rm' version='1.1.1'>
+      <update id='org.sintef.comet.uml.template.rm' range='[0.0.0,1.1.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Model Template (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.rm' version='1.1.1'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.template.rm' version='1.1.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.rm' version='1.1.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.template.rm; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Requirements Model Template (Plugin)&#xA;Bundle-Version: 1.1.1&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.modeler.ui.wizards
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.rm.feature.jar' version='1.1.1'>
+      <update id='org.sintef.comet.uml.feature.rm.feature.jar' range='[0.0.0,1.1.1)' severity='0'/>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET requirements modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.rm.feature.jar' version='1.1.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.comet.uml.feature.rm' version='1.1.1'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.rm' version='1.1.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.sam.feature.group' version='1.1.1' singleton='false'>
+      <update id='org.sintef.comet.uml.feature.sam.feature.group' range='[0.0.0,1.1.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET service architecture modelling method feature for Rational&#xA;Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.sam.feature.group' version='1.1.1'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.sam' range='[1.1.0,1.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.sam' range='[1.1.1,1.1.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.sam.feature.jar' range='[1.1.1,1.1.1]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.bm.feature.group' version='1.1.1' singleton='false'>
+      <update id='org.sintef.comet.uml.feature.bm.feature.group' range='[0.0.0,1.1.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET business modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.bm.feature.group' version='1.1.1'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.bm' range='[1.1.0,1.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.bm' range='[1.1.1,1.1.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.bm.feature.jar' range='[1.1.1,1.1.1]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.feature.rm.feature.group' version='1.1.1' singleton='false'>
+      <update id='org.sintef.comet.uml.feature.rm.feature.group' range='[0.0.0,1.1.1)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET requirements modelling method feature for Rational Software&#xA;Modeler (RSM).'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.rm.feature.group' version='1.1.1'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.profile.rm' range='[1.1.0,1.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.rm' range='[1.1.1,1.1.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.feature.rm.feature.jar' range='[1.1.1,1.1.1]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license>
+          © 2004-2009 SINTEF ICT. All rights reserved.&#xA;This program and the accompanying materials are made available&#xA;under the terms of the Eclipse Public License v1.0 which accompanies&#xA;this distribution, and is available at http://www.eclipse.org/legal/epl-v10.html
+        </license>
+      </licenses>
+      <copyright>
+        © 2004-2009 SINTEF ICT. All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.comet.uml.template.sam' version='1.1.1'>
+      <update id='org.sintef.comet.uml.template.sam' range='[0.0.0,1.1.1)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Model Template (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.comet.uml.template.sam' version='1.1.1'/>
+        <provided namespace='osgi.bundle' name='org.sintef.comet.uml.template.sam' version='1.1.1'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.sam' version='1.1.1'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.comet.uml.template.sam; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Service Architecture Model Template (Plugin)&#xA;Bundle-Version: 1.1.1&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.modeler.ui.wizards
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.rsm.comet.rm.feature.feature.jar' version='1.2.0'>
+      <update id='org.sintef.rsm.comet.rm.feature.feature.jar' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET requirements modelling method feature for Rational Software&#xA;Modeler (RSM).&#xA;http://www.modelbased.net/comet/'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.modelbased.net/comet/update/site.xml'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.rm.feature.feature.jar' version='1.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.rsm.comet.rm.feature' version='1.2.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.rm.feature' version='1.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license url='http://www.eclipse.org/legal/epl-v10.html'>
+          Licensed under the Eclipse Public License v1.0. You may obtain&#xA;a copy of the license at http://www.eclipse.org/legal/epl-v10.html.&#xA;Unless required by applicable law or agreed to in writing, software&#xA;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xA;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express&#xA;or implied. See the license for the specific language governing&#xA;permissions and limitations under the license.
+        </license>
+      </licenses>
+      <copyright url='http://www.eclipse.org/legal/epl-v10.html'>
+        Copyright © 2004-2009 SINTEF ICT. All rights reserved. This software&#xA;and the accompanying materials are made available under the terms&#xA;of the Eclipse Public License v1.0, which accompanies this distribution&#xA;and is available at http://www.eclipse.org/legal/epl-v10.html.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.rsm.comet.rm.profile' version='1.2.0'>
+      <update id='org.sintef.rsm.comet.rm.profile' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Profile (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.rm.profile' version='1.2.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.rsm.comet.rm.profile' version='1.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.profile' version='1.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.rsm.comet.rm.profile; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Requirements Profile (Plugin)&#xA;Bundle-Version: 1.2.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.emf.msl,&#xA; com.ibm.xtools.uml.msl
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <update id='org.sintef.rsm.comet.bm.template' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Model Template (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.bm.template' version='1.2.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.rsm.comet.bm.template' version='1.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.common.ui.wizards' range='[7.5.500,8.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.rsm.comet.bm.template; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Business Model Template (Plugin)&#xA;Bundle-Version: 1.2.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.common.ui.wizards;bundle-version=&quot;[7.5.500,8.0.0)&quot;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.rsm.comet.sam.feature.feature.jar' version='1.2.0'>
+      <update id='org.sintef.rsm.comet.sam.feature.feature.jar' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET service architecture modelling method feature for Rational&#xA;Software Modeler (RSM).&#xA;http://www.modelbased.net/comet/'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.modelbased.net/comet/update/site.xml'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.sam.feature.feature.jar' version='1.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.rsm.comet.sam.feature' version='1.2.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.sam.feature' version='1.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license url='http://www.eclipse.org/legal/epl-v10.html'>
+          Licensed under the Eclipse Public License v1.0. You may obtain&#xA;a copy of the license at http://www.eclipse.org/legal/epl-v10.html.&#xA;Unless required by applicable law or agreed to in writing, software&#xA;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xA;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express&#xA;or implied. See the license for the specific language governing&#xA;permissions and limitations under the license.
+        </license>
+      </licenses>
+      <copyright url='http://www.eclipse.org/legal/epl-v10.html'>
+        Copyright © 2004-2009 SINTEF ICT. All rights reserved. This software&#xA;and the accompanying materials are made available under the terms&#xA;of the Eclipse Public License v1.0, which accompanies this distribution&#xA;and is available at http://www.eclipse.org/legal/epl-v10.html.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.rsm.comet.sam.profile' version='1.2.0'>
+      <update id='org.sintef.rsm.comet.sam.profile' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Profile (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.sam.profile' version='1.2.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.rsm.comet.sam.profile' version='1.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.profile' version='1.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.rsm.comet.sam.profile; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Service Architecture Profile (Plugin)&#xA;Bundle-Version: 1.2.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.emf.msl,&#xA; com.ibm.xtools.uml.msl
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.rsm.comet.bm.feature.feature.group' version='1.2.0' singleton='false'>
+      <update id='org.sintef.rsm.comet.bm.feature.feature.group' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET business modelling method feature for Rational Software&#xA;Modeler (RSM).&#xA;http://www.modelbased.net/comet/'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.modelbased.net/comet/update/site.xml'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.bm.feature.feature.group' version='1.2.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.bm.profile' range='[1.2.0,1.2.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.bm.template' range='[1.2.0,1.2.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.bm.feature.feature.jar' range='[1.2.0,1.2.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license url='http://www.eclipse.org/legal/epl-v10.html'>
+          Licensed under the Eclipse Public License v1.0. You may obtain&#xA;a copy of the license at http://www.eclipse.org/legal/epl-v10.html.&#xA;Unless required by applicable law or agreed to in writing, software&#xA;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xA;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express&#xA;or implied. See the license for the specific language governing&#xA;permissions and limitations under the license.
+        </license>
+      </licenses>
+      <copyright url='http://www.eclipse.org/legal/epl-v10.html'>
+        Copyright © 2004-2009 SINTEF ICT. All rights reserved. This software&#xA;and the accompanying materials are made available under the terms&#xA;of the Eclipse Public License v1.0, which accompanies this distribution&#xA;and is available at http://www.eclipse.org/legal/epl-v10.html.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.rsm.comet.rm.feature.feature.group' version='1.2.0' singleton='false'>
+      <update id='org.sintef.rsm.comet.rm.feature.feature.group' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET requirements modelling method feature for Rational Software&#xA;Modeler (RSM).&#xA;http://www.modelbased.net/comet/'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.modelbased.net/comet/update/site.xml'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.rm.feature.feature.group' version='1.2.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.rm.profile' range='[1.1.0,1.1.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.rm.template' range='[1.1.1,1.1.1]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.rm.feature.feature.jar' range='[1.2.0,1.2.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license url='http://www.eclipse.org/legal/epl-v10.html'>
+          Licensed under the Eclipse Public License v1.0. You may obtain&#xA;a copy of the license at http://www.eclipse.org/legal/epl-v10.html.&#xA;Unless required by applicable law or agreed to in writing, software&#xA;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xA;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express&#xA;or implied. See the license for the specific language governing&#xA;permissions and limitations under the license.
+        </license>
+      </licenses>
+      <copyright url='http://www.eclipse.org/legal/epl-v10.html'>
+        Copyright © 2004-2009 SINTEF ICT. All rights reserved. This software&#xA;and the accompanying materials are made available under the terms&#xA;of the Eclipse Public License v1.0, which accompanies this distribution&#xA;and is available at http://www.eclipse.org/legal/epl-v10.html.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.rsm.comet.sam.feature.feature.group' version='1.2.0' singleton='false'>
+      <update id='org.sintef.rsm.comet.sam.feature.feature.group' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET service architecture modelling method feature for Rational&#xA;Software Modeler (RSM).&#xA;http://www.modelbased.net/comet/'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.modelbased.net/comet/update/site.xml'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.sam.feature.feature.group' version='1.2.0'/>
+      </provides>
+      <requires size='6'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.ibm.xtools.modeler.ui.wizards' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.sam.profile' range='[1.2.0,1.2.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.sam.template' range='[1.2.0,1.2.0]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.sam.feature.feature.jar' range='[1.2.0,1.2.0]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license url='http://www.eclipse.org/legal/epl-v10.html'>
+          Licensed under the Eclipse Public License v1.0. You may obtain&#xA;a copy of the license at http://www.eclipse.org/legal/epl-v10.html.&#xA;Unless required by applicable law or agreed to in writing, software&#xA;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xA;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express&#xA;or implied. See the license for the specific language governing&#xA;permissions and limitations under the license.
+        </license>
+      </licenses>
+      <copyright url='http://www.eclipse.org/legal/epl-v10.html'>
+        Copyright © 2004-2009 SINTEF ICT. All rights reserved. This software&#xA;and the accompanying materials are made available under the terms&#xA;of the Eclipse Public License v1.0, which accompanies this distribution&#xA;and is available at http://www.eclipse.org/legal/epl-v10.html.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.rsm.comet.sam.template' version='1.2.0'>
+      <update id='org.sintef.rsm.comet.sam.template' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Service Architecture Model Template (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.sam.template' version='1.2.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.rsm.comet.sam.template' version='1.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.common.ui.wizards' range='[7.5.500,8.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.template' version='1.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.rsm.comet.sam.template; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Service Architecture Model Template (Plugin)&#xA;Bundle-Version: 1.2.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.common.ui.wizards;bundle-version=&quot;[7.5.500,8.0.0)&quot;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.rsm.comet.bm.feature.feature.jar' version='1.2.0'>
+      <update id='org.sintef.rsm.comet.bm.feature.feature.jar' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Modelling'/>
+        <property name='org.eclipse.equinox.p2.description' value='COMET business modelling method feature for Rational Software&#xA;Modeler (RSM).&#xA;http://www.modelbased.net/comet/'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.modelbased.net/comet/update/site.xml'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.bm.feature.feature.jar' version='1.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='org.sintef.rsm.comet.bm.feature' version='1.2.0'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.bm.feature' version='1.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license url='http://www.eclipse.org/legal/epl-v10.html'>
+          Licensed under the Eclipse Public License v1.0. You may obtain&#xA;a copy of the license at http://www.eclipse.org/legal/epl-v10.html.&#xA;Unless required by applicable law or agreed to in writing, software&#xA;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xA;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express&#xA;or implied. See the license for the specific language governing&#xA;permissions and limitations under the license.
+        </license>
+      </licenses>
+      <copyright url='http://www.eclipse.org/legal/epl-v10.html'>
+        Copyright © 2004-2009 SINTEF ICT. All rights reserved. This software&#xA;and the accompanying materials are made available under the terms&#xA;of the Eclipse Public License v1.0, which accompanies this distribution&#xA;and is available at http://www.eclipse.org/legal/epl-v10.html.
+      </copyright>
+    </unit>
+    <unit id='org.sintef.rsm.comet.bm.profile' version='1.2.0'>
+      <update id='org.sintef.rsm.comet.bm.profile' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Business Profile (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.bm.profile' version='1.2.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.rsm.comet.bm.profile' version='1.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='2'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.emf.msl' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.uml.msl' range='0.0.0'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.profile' version='1.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.rsm.comet.bm.profile; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Business Profile (Plugin)&#xA;Bundle-Version: 1.2.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.emf.msl,&#xA; com.ibm.xtools.uml.msl
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.sintef.rsm.comet.rm.template' version='1.2.0'>
+      <update id='org.sintef.rsm.comet.rm.template' range='[0.0.0,1.2.0)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='COMET Requirements Model Template (Plugin)'/>
+        <property name='org.eclipse.equinox.p2.provider' value='SINTEF ICT'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.sintef.rsm.comet.rm.template' version='1.2.0'/>
+        <provided namespace='osgi.bundle' name='org.sintef.rsm.comet.rm.template' version='1.2.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.ibm.xtools.common.ui.wizards' range='[7.5.500,8.0.0)'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.template' version='1.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Manifest-Version: 1.0&#xA;Bundle-ManifestVersion: 2&#xA;Bundle-Localization: plugin&#xA;Bundle-SymbolicName: org.sintef.rsm.comet.rm.template; singleton:=true&#xA;Bundle-Vendor: SINTEF ICT&#xA;Bundle-Name: COMET Requirements Model Template (Plugin)&#xA;Bundle-Version: 1.2.0&#xA;Eclipse-LazyStart: true&#xA;Require-Bundle: com.ibm.xtools.common.ui.wizards;bundle-version=&quot;[7.5.500,8.0.0)&quot;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

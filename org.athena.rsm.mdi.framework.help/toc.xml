@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="ATHENA SOA Methodology">
+	<topic label="Introduction" href="html/introduction.htm"/>
+	<topic label="Business modelling" href="html/business_modelling.htm"/>
+	<topic label="Requirements modelling" href="html/requirements_modelling.htm"/>
+	<topic label="Component modelling" href="html/component_modelling.htm"/>
+	<topic label="Platform modelling" href="html/platform_modelling.htm"/>
+	<topic label="Modelling guidelines" href="html/modelling_guidelines.htm"/>
+	<topic label="References" href="html/references.htm"/>
+</toc>

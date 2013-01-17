@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description url="http://modelbased.net/rsm/update">
+      Eclipse features for Rational Software Modeler (RSM)
+   </description>
+   <feature url="features/org.sintef.rsm.uml.eai.feature_0.9.0.jar" id="org.sintef.rsm.uml.eai.feature" version="0.9.0">
+      <category name="UML Profile for EAI"/>
+   </feature>
+   <feature url="features/org.sintef.rsm.uml.ejb.feature_0.9.0.jar" id="org.sintef.rsm.uml.ejb.feature" version="0.9.0">
+      <category name="UML Profile for EJB"/>
+   </feature>
+   <feature url="features/org.sintef.rsm.uml.popx.feature_0.9.0.jar" id="org.sintef.rsm.uml.popx.feature" version="0.9.0">
+      <category name="UML Profile for POP*"/>
+   </feature>
+   <feature url="features/org.sintef.rsm.uml.spem.feature_0.9.0.jar" id="org.sintef.rsm.uml.spem.feature" version="0.9.0">
+      <category name="UML Profile for SPEM"/>
+   </feature>
+   <feature url="features/org.sintef.rsm.uml.swradio.feature_0.9.0.jar" id="org.sintef.rsm.uml.swradio.feature" version="0.9.0">
+      <category name="UML Profile for SW Radio"/>
+   </feature>
+   <feature url="features/org.sintef.rsm.uml.ws.feature_0.9.0.jar" id="org.sintef.rsm.uml.ws.feature" version="0.9.0">
+      <category name="UML Profile for Web Services"/>
+   </feature>
+   <feature url="features/org.sintef.rsm.uml.bmm.feature_0.1.0.jar" id="org.sintef.rsm.uml.bmm.feature" version="0.1.0">
+      <category name="UML Profile for BMM"/>
+   </feature>
+   <feature url="features/org.sintef.rsm.uml.soaml.feature_0.3.0.jar" id="org.sintef.rsm.uml.soaml.feature" version="0.3.0">
+      <category name="UML Profile for SoaML"/>
+   </feature>
+   <feature url="features/org.sintef.rsm.uml.sysml.feature_0.1.0.jar" id="org.sintef.rsm.uml.sysml.feature" version="0.1.0">
+      <category name="UML Profile for SysML"/>
+   </feature>
+   <feature url="features/org.sintef.rsm.uml.spem2.feature_0.3.0.jar" id="org.sintef.rsm.uml.spem2.feature" version="0.3.0">
+      <category name="UML Profile for SPEM 2.x"/>
+   </feature>
+   <category-def name="UML Profile for BMM" label="UML Profile for BMM"/>
+   <category-def name="UML Profile for EAI" label="UML Profile for EAI"/>
+   <category-def name="UML Profile for EJB" label="UML Profile for EJB"/>
+   <category-def name="UML Profile for POP*" label="UML Profile for POP*"/>
+   <category-def name="UML Profile for SoaML" label="UML Profile for SoaML"/>
+   <category-def name="UML Profile for SPEM" label="UML Profile for SPEM"/>
+   <category-def name="UML Profile for SPEM 2.x" label="UML Profile for SPEM 2.x"/>
+   <category-def name="UML Profile for SW Radio" label="UML Profile for SW Radio"/>
+   <category-def name="UML Profile for SysML" label="UML Profile for SysML"/>
+   <category-def name="UML Profile for Web Services" label="UML Profile for Web Services"/>
+</site>

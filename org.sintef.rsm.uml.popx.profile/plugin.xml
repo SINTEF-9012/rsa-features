@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="org.sintef.rsm.uml.popx.profile"
+   name="UML Profile for POPx (Plugin)"
+   version="0.9.0"
+   provider-name="SINTEF ICT">
+
+  <requires>
+     <import plugin="com.ibm.xtools.emf.msl"/>
+     <import plugin="com.ibm.xtools.uml.msl"/>
+  </requires>
+
+  <extension id="POPX_PROFILES" name="POPX_PROFILES" point="org.eclipse.gmf.runtime.emf.core.Pathmaps">
+      <pathmap path="Profiles" name="POPX_PROFILES" />
+  </extension>
+
+  <extension id="POPx_Profile" name="POPx Profile" point="com.ibm.xtools.uml.msl.UMLProfiles">
+     <UMLProfile name="POP*" path="pathmap://POPX_PROFILES/POPxProfile.epx" visible="true" /> 
+  </extension>
+
+</plugin>

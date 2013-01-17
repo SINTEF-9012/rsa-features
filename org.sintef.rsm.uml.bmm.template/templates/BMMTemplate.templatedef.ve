@@ -1,0 +1,6 @@
+name=BMM Model
+description=Create a new BMM model.
+modelName=BMM Model
+id=org.sintef.rsm.uml.bmm.template.BMMTemplate
+templateFile=BMMTemplate.emx
+icon=BMMTemplate.gif

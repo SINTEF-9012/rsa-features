@@ -1,0 +1,6 @@
+name=SPEM 2.x Model
+description=Create a new SPEM 2.x model.
+modelName=SPEM2 Model
+id=org.sintef.rsm.uml.spem2.template.SPEM2Template
+templateFile=SPEM2Template.emx
+icon=SPEM2Template.gif

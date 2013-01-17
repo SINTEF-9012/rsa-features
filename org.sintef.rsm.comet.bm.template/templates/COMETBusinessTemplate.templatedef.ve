@@ -1,0 +1,6 @@
+name=COMET Business Model
+description=Create a new COMET business model.
+modelName=COMET Business Model
+id=org.sintef.rsm.comet.bm.template.COMETBusinessTemplate
+templateFile=COMETBusinessTemplate.emx
+icon=COMETBusinessTemplate.gif

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.sintef.rsm.comet.bm.feature"
+      label="COMET Business Modelling"
+      version="1.2.0"
+      provider-name="SINTEF ICT">
+   <install-handler/>
+
+   <description url="http://www.modelbased.net/comet/update/site.xml">
+      COMET business modelling method feature for Rational Software
+Modeler (RSM).
+http://www.modelbased.net/comet/
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright © 2004-2009 SINTEF ICT. All rights reserved. This software
+and the accompanying materials are made available under the terms
+of the Eclipse Public License v1.0, which accompanies this distribution
+and is available at http://www.eclipse.org/legal/epl-v10.html.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      Licensed under the Eclipse Public License v1.0. You may obtain
+a copy of the license at http://www.eclipse.org/legal/epl-v10.html.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an &quot;AS IS&quot; BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the license for the specific language governing
+permissions and limitations under the license.
+   </license>
+
+   <url>
+      <update url="http://www.modelbased.net/comet/update/site.xml"/>
+      <discovery label="COMET - Component and model-based development methodology" url="http://www.modelbased.net/comet/"/>
+   </url>
+
+   <requires>
+      <import plugin="com.ibm.xtools.emf.msl"/>
+      <import plugin="com.ibm.xtools.uml.msl"/>
+      <import plugin="com.ibm.xtools.modeler.ui.wizards"/>
+   </requires>
+
+   <plugin
+         id="org.sintef.rsm.comet.bm.profile"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.sintef.rsm.comet.bm.template"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>

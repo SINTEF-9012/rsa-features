@@ -1,0 +1,678 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository class='org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository' version='1.0.0'?>
+<repository name='file:/W:/Workspaces/RSM_Features/modelbased.net Update Manager Site for COMET/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.compressed' value='false'/>
+    <property name='p2.timestamp' value='1237956160336'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='99'>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4292'/>
+        <property name='download.size' value='4292'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.sam.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6843'/>
+        <property name='download.size' value='6843'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.sam' version='1.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='948'/>
+        <property name='download.size' value='948'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.sam.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1246'/>
+        <property name='download.size' value='1246'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4385'/>
+        <property name='download.size' value='4385'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4387'/>
+        <property name='download.size' value='4387'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4099'/>
+        <property name='download.size' value='4099'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.bm' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='641'/>
+        <property name='download.size' value='641'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.rm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6824'/>
+        <property name='download.size' value='6824'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='33976'/>
+        <property name='download.size' value='33976'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4384'/>
+        <property name='download.size' value='4384'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4293'/>
+        <property name='download.size' value='4293'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4062'/>
+        <property name='download.size' value='4062'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.rm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6834'/>
+        <property name='download.size' value='6834'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.sam' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='651'/>
+        <property name='download.size' value='651'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.rm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6823'/>
+        <property name='download.size' value='6823'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.bm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6824'/>
+        <property name='download.size' value='6824'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.bm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6840'/>
+        <property name='download.size' value='6840'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.bm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6834'/>
+        <property name='download.size' value='6834'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.bm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6822'/>
+        <property name='download.size' value='6822'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4919'/>
+        <property name='download.size' value='4919'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='6588'/>
+        <property name='download.size' value='6588'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4918'/>
+        <property name='download.size' value='4918'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4989'/>
+        <property name='download.size' value='4989'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='5009'/>
+        <property name='download.size' value='5009'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4599'/>
+        <property name='download.size' value='4599'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='5007'/>
+        <property name='download.size' value='5007'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.rm' version='1.1.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='4081'/>
+        <property name='download.size' value='4081'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='21709'/>
+        <property name='download.size' value='21709'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.rm' version='1.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='937'/>
+        <property name='download.size' value='937'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.sam' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='18727'/>
+        <property name='download.size' value='18727'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='8225'/>
+        <property name='download.size' value='8225'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.rm' version='1.1.1'>
+      <properties size='2'>
+        <property name='artifact.size' value='979'/>
+        <property name='download.size' value='979'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='10167'/>
+        <property name='download.size' value='10167'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='8333'/>
+        <property name='download.size' value='8333'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.bm' version='1.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4544'/>
+        <property name='download.size' value='4544'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.bm' version='1.1.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='4555'/>
+        <property name='download.size' value='4555'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.bm' version='1.1.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='4589'/>
+        <property name='download.size' value='4589'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.bm' version='1.1.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='937'/>
+        <property name='download.size' value='937'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.sam' version='1.1.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='4055'/>
+        <property name='download.size' value='4055'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='34042'/>
+        <property name='download.size' value='34042'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='40088'/>
+        <property name='download.size' value='40088'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='34030'/>
+        <property name='download.size' value='34030'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4391'/>
+        <property name='download.size' value='4391'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4081'/>
+        <property name='download.size' value='4081'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.sam.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6832'/>
+        <property name='download.size' value='6832'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4080'/>
+        <property name='download.size' value='4080'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.bm' version='1.1.1'>
+      <properties size='2'>
+        <property name='artifact.size' value='980'/>
+        <property name='download.size' value='980'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.rm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1237'/>
+        <property name='download.size' value='1237'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.sam' version='1.1.1'>
+      <properties size='2'>
+        <property name='artifact.size' value='952'/>
+        <property name='download.size' value='952'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.sam.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1256'/>
+        <property name='download.size' value='1256'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.rm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1242'/>
+        <property name='download.size' value='1242'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.sam.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6833'/>
+        <property name='download.size' value='6833'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.sam' version='1.1.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='4015'/>
+        <property name='download.size' value='4015'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.rm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1247'/>
+        <property name='download.size' value='1247'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='70081'/>
+        <property name='download.size' value='70081'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.rm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6844'/>
+        <property name='download.size' value='6844'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.bm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1237'/>
+        <property name='download.size' value='1237'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.bm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='1248'/>
+        <property name='download.size' value='1248'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.bm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6777'/>
+        <property name='download.size' value='6777'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.bm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6842'/>
+        <property name='download.size' value='6842'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.rsm.comet.bm.feature' version='1.2.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='6853'/>
+        <property name='download.size' value='6853'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4977'/>
+        <property name='download.size' value='4977'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='5024'/>
+        <property name='download.size' value='5024'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4932'/>
+        <property name='download.size' value='4932'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4929'/>
+        <property name='download.size' value='4929'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4921'/>
+        <property name='download.size' value='4921'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4976'/>
+        <property name='download.size' value='4976'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='5017'/>
+        <property name='download.size' value='5017'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4689'/>
+        <property name='download.size' value='4689'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4601'/>
+        <property name='download.size' value='4601'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4969'/>
+        <property name='download.size' value='4969'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='6473'/>
+        <property name='download.size' value='6473'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.bm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4936'/>
+        <property name='download.size' value='4936'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='6915'/>
+        <property name='download.size' value='6915'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='7004'/>
+        <property name='download.size' value='7004'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='7005'/>
+        <property name='download.size' value='7005'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4099'/>
+        <property name='download.size' value='4099'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='6956'/>
+        <property name='download.size' value='6956'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4098'/>
+        <property name='download.size' value='4098'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='7010'/>
+        <property name='download.size' value='7010'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.template' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='6916'/>
+        <property name='download.size' value='6916'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.rm' version='1.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='10168'/>
+        <property name='download.size' value='10168'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.rm' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='8813'/>
+        <property name='download.size' value='8813'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.bm' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='72100'/>
+        <property name='download.size' value='72100'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.rm' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='7094'/>
+        <property name='download.size' value='7094'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='18357'/>
+        <property name='download.size' value='18357'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.rm' version='1.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4612'/>
+        <property name='download.size' value='4612'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.bm' version='1.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='70083'/>
+        <property name='download.size' value='70083'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.rm' version='1.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4048'/>
+        <property name='download.size' value='4048'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.rm' version='1.1.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='4059'/>
+        <property name='download.size' value='4059'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='22256'/>
+        <property name='download.size' value='22256'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.sintef.comet.uml.feature.rm' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='639'/>
+        <property name='download.size' value='639'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.sam.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='18249'/>
+        <property name='download.size' value='18249'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.rsm.comet.rm.profile' version='1.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='10422'/>
+        <property name='download.size' value='10422'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.profile.sam' version='1.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='21714'/>
+        <property name='download.size' value='21714'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.sam' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='3899'/>
+        <property name='download.size' value='3899'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.bm' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4523'/>
+        <property name='download.size' value='4523'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sintef.comet.uml.template.sam' version='1.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4003'/>
+        <property name='download.size' value='4003'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

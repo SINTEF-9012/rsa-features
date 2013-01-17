@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="org.sintef.rsm.comet.rm.profile"
+   name="COMET Requirements Profile (Plugin)"
+   version="1.2.0"
+   provider-name="SINTEF ICT">
+
+  <requires>
+     <import plugin="com.ibm.xtools.emf.msl"/>
+     <import plugin="com.ibm.xtools.uml.msl"/>
+  </requires>
+
+  <extension id="COMET_RM_PROFILE" name="profiles" point="org.eclipse.gmf.runtime.emf.core.Pathmaps">
+      <pathmap path="profiles" name="COMET_RM_PROFILE" />
+  </extension>
+
+  <extension id="COMET_Requirements_Profile" name="COMET Requirements Profile" point="com.ibm.xtools.uml.msl.UMLProfiles">
+     <UMLProfile name="COMET Requirements Profile" path="pathmap://COMET_RM_PROFILE/COMETRequirementsProfile.epx" visible="true" /> 
+  </extension>
+
+</plugin>

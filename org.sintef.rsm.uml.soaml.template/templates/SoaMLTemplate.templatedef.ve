@@ -1,0 +1,6 @@
+name=SoaML Model
+description=Create a new SoaML model.
+modelName=SoaML Model
+id=org.sintef.rsm.uml.soaml.template.SoaMLTemplate
+templateFile=SoaMLTemplate.emx
+icon=SoaMLTemplate.gif

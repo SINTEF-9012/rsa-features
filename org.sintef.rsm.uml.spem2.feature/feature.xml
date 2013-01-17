@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.sintef.rsm.uml.spem2.feature"
+      label="UML Profile for SPEM 2.x (Feature)"
+      version="0.3.0"
+      provider-name="SINTEF ICT">
+   <install-handler/>
+
+   <description url="http://modelbased.net/rsm/update/site.xml">
+      UML Profile for Software &amp; Systems Process Engineering Metamodel (SPEM) Version 2.
+Defines a set of UML 2 stereotypes that allows presenting SPEM 2.0 methods and processes using the UML 2. However, the definition of these stereotypes in this specification only covers their presentation, but relies on the SPEM 2.0 metamodel for all semantic definitions and constraints. In other words, this version of the profile does not contain any OCL constraints, but relies on the SPEM 2.0 metamodel semantics to define all of its constraints.
+http://www.omg.org/spec/SPEM/2.0/
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      Copyright © 2009 SINTEF ICT. All rights reserved. This software and the accompanying materials are made available under the terms of the Eclipse Public License v1.0, which accompanies this distribution and is available at http://www.eclipse.org/legal/epl-v10.html.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      Licensed under the Eclipse Public License v1.0. You may obtain a copy of the license at http://www.eclipse.org/legal/epl-v10.html. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the license for the specific language governing permissions and limitations under the license.
+   </license>
+
+   <url>
+      <update url="http://modelbased.net/rsm/update/site.xml"/>
+   </url>
+
+   <requires>
+      <import plugin="com.ibm.xtools.emf.msl"/>
+      <import plugin="com.ibm.xtools.uml.msl"/>
+   </requires>
+
+   <plugin
+         id="org.sintef.rsm.uml.spem2.profile"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.sintef.rsm.uml.spem2.template"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>

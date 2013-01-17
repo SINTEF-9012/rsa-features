@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="org.sintef.rsm.uml.ws.xsd.library"
+   name="UML Library for XSD (Plugin)"
+   version="0.9.0"
+   provider-name="SINTEF ICT">
+
+   <requires>
+      <import plugin="com.ibm.xtools.emf.msl"/>
+      <import plugin="com.ibm.xtools.uml.msl"/>
+   </requires>
+
+  <extension id="XSD_LIBRARIES" name="XSD_LIBRARIES" point="org.eclipse.gmf.runtime.emf.core.Pathmaps">
+     <pathmap path="Libraries" name="XSD_LIBRARIES"/> 
+  </extension>
+
+  <extension id="XSD_TYPES" name="XSD_TYPES" point="com.ibm.xtools.uml.msl.UMLLibraries">
+     <UMLLibrary name="XSD Types" path="pathmap://XSD_LIBRARIES/XSDTypes.emx" visible="true"/>
+  </extension>
+
+</plugin>

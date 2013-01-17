@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:COMETBusinessProfile="http:///schemas/COMETBusinessProfile/_vtXukBhdEd68jsEWtepBlA/75" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.2/Umlnotation" xsi:schemaLocation="http:///schemas/COMETBusinessProfile/_vtXukBhdEd68jsEWtepBlA/75 pathmap://COMET_BM_PROFILE/COMETBusinessProfile.epx#_vtXukRhdEd68jsEWtepBlA?COMET%20Business%20Profile/COMETBusinessProfile?">
+  <uml:Model xmi:id="_moJlQL5XEdqms4p0UmnT0Q" name="Business Model">
+    <eAnnotations xmi:id="_moJlQb5XEdqms4p0UmnT0Q" source="uml2.diagrams" references="_moJlQr5XEdqms4p0UmnT0Q">
+      <contents xmi:type="notation:Diagram" xmi:id="_moJlQr5XEdqms4p0UmnT0Q" type="Freeform" name="Main">
+        <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_moJlQ75XEdqms4p0UmnT0Q"/>
+      </contents>
+    </eAnnotations>
+    <eAnnotations xmi:id="_oLsboL5XEdqms4p0UmnT0Q" source="http://www.eclipse.org/emf/2002/Ecore"/>
+    <packageImport xmi:id="_moJlU75XEdqms4p0UmnT0Q">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tN38EL5XEdqms4p0UmnT0Q" name="Scoping Statements">
+      <eAnnotations xmi:id="_tN38Eb5XEdqms4p0UmnT0Q" source="uml2.diagrams" references="_tN38Er5XEdqms4p0UmnT0Q">
+        <contents xmi:type="notation:Diagram" xmi:id="_tN38Er5XEdqms4p0UmnT0Q" type="Freeform" name="Main">
+          <children xmi:id="_tN38E75XEdqms4p0UmnT0Q" element="_tOBtEL5XEdqms4p0UmnT0Q">
+            <children xmi:id="_tN38FL5XEdqms4p0UmnT0Q" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_tN38Fb5XEdqms4p0UmnT0Q" width="1320" height="1320"/>
+            </children>
+            <children xmi:id="_tN38Fr5XEdqms4p0UmnT0Q" type="Stereotype"/>
+            <children xmi:id="_tN38F75XEdqms4p0UmnT0Q" type="Name"/>
+            <children xmi:id="_tjJIQAW9Ed6M6qEpqrl06g" type="Parent"/>
+            <children xmi:id="_tjJIQQW9Ed6M6qEpqrl06g" type="PackageContents">
+              <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_tjJIQgW9Ed6M6qEpqrl06g" canonical="false" collapsed="true"/>
+            </children>
+            <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_tN38GL5XEdqms4p0UmnT0Q" showStereotype="Label"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tN38Gb5XEdqms4p0UmnT0Q" x="1272" y="954"/>
+          </children>
+          <children xmi:id="_tN38Gr5XEdqms4p0UmnT0Q" element="_tOBtN75XEdqms4p0UmnT0Q">
+            <children xmi:id="_tN38G75XEdqms4p0UmnT0Q" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_tN38HL5XEdqms4p0UmnT0Q" width="1320" height="1320"/>
+            </children>
+            <children xmi:id="_tN38Hb5XEdqms4p0UmnT0Q" type="Stereotype"/>
+            <children xmi:id="_tN38Hr5XEdqms4p0UmnT0Q" type="Name"/>
+            <children xmi:id="_tjJIQwW9Ed6M6qEpqrl06g" type="Parent"/>
+            <children xmi:id="_tjJIRAW9Ed6M6qEpqrl06g" type="PackageContents">
+              <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_tjJIRQW9Ed6M6qEpqrl06g" canonical="false" collapsed="true"/>
+            </children>
+            <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_tN38H75XEdqms4p0UmnT0Q" showStereotype="Label"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tN38IL5XEdqms4p0UmnT0Q" x="1272" y="6042"/>
+          </children>
+          <children xmi:id="_tN38Ib5XEdqms4p0UmnT0Q" element="_tOBtM75XEdqms4p0UmnT0Q">
+            <children xmi:id="_tN38Ir5XEdqms4p0UmnT0Q" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_tN38I75XEdqms4p0UmnT0Q" width="1320" height="1320"/>
+            </children>
+            <children xmi:id="_tN38JL5XEdqms4p0UmnT0Q" type="Stereotype"/>
+            <children xmi:id="_tN38Jb5XEdqms4p0UmnT0Q" type="Name"/>
+            <children xmi:id="_tjS5QAW9Ed6M6qEpqrl06g" type="Parent"/>
+            <children xmi:id="_tjS5QQW9Ed6M6qEpqrl06g" type="PackageContents">
+              <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_tjS5QgW9Ed6M6qEpqrl06g" canonical="false" collapsed="true"/>
+            </children>
+            <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_tN38Jr5XEdqms4p0UmnT0Q" showStereotype="Label"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tN38J75XEdqms4p0UmnT0Q" x="1272" y="3498"/>
+          </children>
+          <children xmi:id="_tN38KL5XEdqms4p0UmnT0Q" type="Note">
+            <children xmi:id="_tN38Kb5XEdqms4p0UmnT0Q" type="DiagramName">
+              <element xsi:nil="true"/>
+            </children>
+            <children xmi:id="_tN38Kr5XEdqms4p0UmnT0Q" type="Description">
+              <element xsi:nil="true"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tN38K75XEdqms4p0UmnT0Q" description="Placeholder for keeping links to external risk analysis documents." fillColor="13369343" lineColor="6737151"/>
+            <element xsi:nil="true"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tN38LL5XEdqms4p0UmnT0Q" x="6678" y="5724" width="5396" height="1586"/>
+          </children>
+          <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_tN38Lb5XEdqms4p0UmnT0Q"/>
+          <edges xmi:id="_tN38Lr5XEdqms4p0UmnT0Q" type="NoteAttachment" source="_tN38KL5XEdqms4p0UmnT0Q" target="_tN38Gr5XEdqms4p0UmnT0Q">
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_tN38L75XEdqms4p0UmnT0Q"/>
+            <element xsi:nil="true"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tN38ML5XEdqms4p0UmnT0Q" points="[-186, 17, 157, 20]$[-344, -4, -1, -1]"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tOBtEL5XEdqms4p0UmnT0Q" name="Context Statement">
+        <eAnnotations xmi:id="_tOBtEb5XEdqms4p0UmnT0Q" source="uml2.diagrams">
+          <contents xmi:type="notation:Diagram" xmi:id="_tOBtEr5XEdqms4p0UmnT0Q" type="Usecase" name="Context Statement UCD">
+            <children xmi:id="_tOBtE75XEdqms4p0UmnT0Q" element="_tOBtHb5XEdqms4p0UmnT0Q">
+              <children xmi:id="_tOBtFL5XEdqms4p0UmnT0Q" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_tOBtFb5XEdqms4p0UmnT0Q" width="2216" height="1322"/>
+              </children>
+              <children xmi:id="_tOBtFr5XEdqms4p0UmnT0Q" type="Stereotype"/>
+              <children xmi:id="_tOBtF75XEdqms4p0UmnT0Q" type="Name"/>
+              <children xmi:id="_tjl0MAW9Ed6M6qEpqrl06g" type="Parent"/>
+              <children xmi:id="_tOBtGL5XEdqms4p0UmnT0Q" visible="false" type="Extension_Points">
+                <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_tOBtGb5XEdqms4p0UmnT0Q"/>
+              </children>
+              <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_tOBtGr5XEdqms4p0UmnT0Q" fillColor="13434879" lineColor="3342489" showStereotype="Label"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tOBtG75XEdqms4p0UmnT0Q" x="8268" y="6042"/>
+            </children>
+            <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_tOBtHL5XEdqms4p0UmnT0Q"/>
+          </contents>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_tOBtHb5XEdqms4p0UmnT0Q" name="Context Use Case"/>
+        <packagedElement xmi:type="uml:Activity" xmi:id="_tOBtHr5XEdqms4p0UmnT0Q" name="Context Process">
+          <eAnnotations xmi:id="_tOBtH75XEdqms4p0UmnT0Q" source="uml2.diagrams">
+            <contents xmi:type="notation:Diagram" xmi:id="_tOBtIL5XEdqms4p0UmnT0Q" type="Activity" element="_tOBtHr5XEdqms4p0UmnT0Q" name="Context Process AD">
+              <children xmi:id="_tOBtIb5XEdqms4p0UmnT0Q" type="Activity Frame" element="_tOBtHr5XEdqms4p0UmnT0Q">
+                <children xmi:id="_tOBtIr5XEdqms4p0UmnT0Q" type="ActivityCompartment">
+                  <children xmi:id="_tOBtI75XEdqms4p0UmnT0Q" element="_tOBtML5XEdqms4p0UmnT0Q">
+                    <children xmi:id="_tkyHAAW9Ed6M6qEpqrl06g" type="ImageCompartment">
+                      <layoutConstraint xmi:type="notation:Size" xmi:id="_tkyHAQW9Ed6M6qEpqrl06g" width="1320" height="1320"/>
+                    </children>
+                    <children xmi:id="_tOBtJL5XEdqms4p0UmnT0Q" type="Stereotype"/>
+                    <children xmi:id="_tkyHAgW9Ed6M6qEpqrl06g" type="InPartitions"/>
+                    <children xmi:id="_tOBtJb5XEdqms4p0UmnT0Q" type="Name"/>
+                    <children xmi:id="_tkyHAwW9Ed6M6qEpqrl06g" type="Parent"/>
+                    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_tOBtJr5XEdqms4p0UmnT0Q" fillColor="13434879" lineColor="3342489" showStereotype="Label"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tOBtJ75XEdqms4p0UmnT0Q" x="4960" y="4550"/>
+                  </children>
+                  <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_tOBtKL5XEdqms4p0UmnT0Q"/>
+                </children>
+                <children xmi:id="_tOBtKb5XEdqms4p0UmnT0Q" type="Name"/>
+                <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_tOBtKr5XEdqms4p0UmnT0Q" showStereotype="Label"/>
+                <styles xmi:type="umlnotation:UMLFrameStyle" xmi:id="_tOBtK75XEdqms4p0UmnT0Q"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tOBtLL5XEdqms4p0UmnT0Q"/>
+              </children>
+              <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_tOBtLb5XEdqms4p0UmnT0Q"/>
+            </contents>
+          </eAnnotations>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_tOBtML5XEdqms4p0UmnT0Q" name="Step"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tOBtM75XEdqms4p0UmnT0Q" name="Vision for Change">
+        <eAnnotations xmi:id="_tOBtNL5XEdqms4p0UmnT0Q" source="uml2.diagrams" references="_tOBtNb5XEdqms4p0UmnT0Q">
+          <contents xmi:type="notation:Diagram" xmi:id="_tOBtNb5XEdqms4p0UmnT0Q" type="Freeform" name="Main">
+            <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_tOBtNr5XEdqms4p0UmnT0Q"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tOBtN75XEdqms4p0UmnT0Q" name="Risk Analysis">
+        <eAnnotations xmi:id="_tOBtOL5XEdqms4p0UmnT0Q" source="uml2.diagrams">
+          <contents xmi:type="notation:Diagram" xmi:id="_tOBtOb5XEdqms4p0UmnT0Q" type="Class" name="Risk CD">
+            <children xmi:id="_tOBtOr5XEdqms4p0UmnT0Q" element="_tOBtSr5XEdqms4p0UmnT0Q">
+              <children xmi:id="_tOBtO75XEdqms4p0UmnT0Q" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_tOBtPL5XEdqms4p0UmnT0Q" width="1320" height="1320"/>
+              </children>
+              <children xmi:id="_tOBtPb5XEdqms4p0UmnT0Q" type="Stereotype"/>
+              <children xmi:id="_tOBtPr5XEdqms4p0UmnT0Q" type="Name"/>
+              <children xmi:id="_tlOy8AW9Ed6M6qEpqrl06g" type="Parent"/>
+              <children xmi:id="_tOBtP75XEdqms4p0UmnT0Q" type="AttributeCompartment">
+                <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_tOBtQL5XEdqms4p0UmnT0Q"/>
+              </children>
+              <children xmi:id="_tOBtQb5XEdqms4p0UmnT0Q" type="OperationCompartment">
+                <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_tOBtQr5XEdqms4p0UmnT0Q"/>
+              </children>
+              <children xmi:id="_tOBtQ75XEdqms4p0UmnT0Q" visible="false" type="SignalCompartment">
+                <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_tOBtRL5XEdqms4p0UmnT0Q"/>
+              </children>
+              <children xmi:id="_tOBtRb5XEdqms4p0UmnT0Q" visible="false" type="StructureCompartment">
+                <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_tOBtRr5XEdqms4p0UmnT0Q"/>
+              </children>
+              <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_tOBtR75XEdqms4p0UmnT0Q" fillColor="13434879" lineColor="3342489" showStereotype="Label"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tOBtSL5XEdqms4p0UmnT0Q" x="2226" y="2226"/>
+            </children>
+            <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_tOBtSb5XEdqms4p0UmnT0Q"/>
+          </contents>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tOBtSr5XEdqms4p0UmnT0Q" name="Risk"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tOBtS75XEdqms4p0UmnT0Q" name="Goal Model">
+      <eAnnotations xmi:id="_tOBtTL5XEdqms4p0UmnT0Q" source="uml2.diagrams">
+        <contents xmi:type="notation:Diagram" xmi:id="_tOBtTb5XEdqms4p0UmnT0Q" type="Class" name="Goal structure CD">
+          <children xmi:id="_tOBtTr5XEdqms4p0UmnT0Q" element="_tOBtYL5XEdqms4p0UmnT0Q">
+            <children xmi:id="_tOBtT75XEdqms4p0UmnT0Q" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_tOBtUL5XEdqms4p0UmnT0Q" width="1320" height="1320"/>
+            </children>
+            <children xmi:id="_tOBtUb5XEdqms4p0UmnT0Q" type="Stereotype"/>
+            <children xmi:id="_tOBtUr5XEdqms4p0UmnT0Q" type="Name"/>
+            <children xmi:id="_tlOy8QW9Ed6M6qEpqrl06g" type="Parent"/>
+            <children xmi:id="_tOBtU75XEdqms4p0UmnT0Q" type="AttributeCompartment">
+              <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_tOBtVL5XEdqms4p0UmnT0Q"/>
+            </children>
+            <children xmi:id="_tOBtVb5XEdqms4p0UmnT0Q" type="OperationCompartment">
+              <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_tOBtVr5XEdqms4p0UmnT0Q"/>
+            </children>
+            <children xmi:id="_tOBtV75XEdqms4p0UmnT0Q" visible="false" type="SignalCompartment">
+              <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_tOBtWL5XEdqms4p0UmnT0Q"/>
+            </children>
+            <children xmi:id="_tOBtWb5XEdqms4p0UmnT0Q" visible="false" type="StructureCompartment">
+              <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_tOBtWr5XEdqms4p0UmnT0Q"/>
+            </children>
+            <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_tOBtW75XEdqms4p0UmnT0Q" fillColor="13434879" lineColor="3342489" showStereotype="Label"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tOBtXL5XEdqms4p0UmnT0Q" x="3180" y="1590"/>
+          </children>
+          <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_tOBtXb5XEdqms4p0UmnT0Q"/>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tOBtYL5XEdqms4p0UmnT0Q" name="Goal"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tOLeEL5XEdqms4p0UmnT0Q" name="Business Resource Model">
+      <eAnnotations xmi:id="_tOLeEb5XEdqms4p0UmnT0Q" source="uml2.diagrams">
+        <contents xmi:type="notation:Diagram" xmi:id="_tOLeEr5XEdqms4p0UmnT0Q" type="Class" name="Business Resource CD">
+          <children xmi:id="_tOLeE75XEdqms4p0UmnT0Q" element="_tOLeJb5XEdqms4p0UmnT0Q">
+            <children xmi:id="_tOLeFL5XEdqms4p0UmnT0Q" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_tOLeFb5XEdqms4p0UmnT0Q" width="1320" height="1320"/>
+            </children>
+            <children xmi:id="_tOLeFr5XEdqms4p0UmnT0Q" type="Stereotype"/>
+            <children xmi:id="_tOLeF75XEdqms4p0UmnT0Q" type="Name"/>
+            <children xmi:id="_tlOy8gW9Ed6M6qEpqrl06g" type="Parent"/>
+            <children xmi:id="_tOLeGL5XEdqms4p0UmnT0Q" type="AttributeCompartment">
+              <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_tOLeGb5XEdqms4p0UmnT0Q"/>
+            </children>
+            <children xmi:id="_tOLeGr5XEdqms4p0UmnT0Q" type="OperationCompartment">
+              <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_tOLeG75XEdqms4p0UmnT0Q"/>
+            </children>
+            <children xmi:id="_tOLeHL5XEdqms4p0UmnT0Q" visible="false" type="SignalCompartment">
+              <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_tOLeHb5XEdqms4p0UmnT0Q"/>
+            </children>
+            <children xmi:id="_tOLeHr5XEdqms4p0UmnT0Q" visible="false" type="StructureCompartment">
+              <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_tOLeH75XEdqms4p0UmnT0Q"/>
+            </children>
+            <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_tOLeIL5XEdqms4p0UmnT0Q" fillColor="13434879" lineColor="3342489" showStereotype="Label"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tOLeIb5XEdqms4p0UmnT0Q" x="1908" y="1908"/>
+          </children>
+          <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_tOLeIr5XEdqms4p0UmnT0Q"/>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tOLeJb5XEdqms4p0UmnT0Q" name="Resource"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tOLeKL5XEdqms4p0UmnT0Q" name="Business Process Model">
+      <eAnnotations xmi:id="_tOLeKb5XEdqms4p0UmnT0Q" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Activity" xmi:id="_tOLeLL5XEdqms4p0UmnT0Q" name="Business process">
+        <eAnnotations xmi:id="_tOLeLb5XEdqms4p0UmnT0Q" source="uml2.diagrams">
+          <contents xmi:type="notation:Diagram" xmi:id="_tOLeLr5XEdqms4p0UmnT0Q" type="Activity" element="_tOLeLL5XEdqms4p0UmnT0Q" name="Business process AD">
+            <children xmi:id="_tOLeL75XEdqms4p0UmnT0Q" type="Activity Frame" element="_tOLeLL5XEdqms4p0UmnT0Q">
+              <children xmi:id="_tOLeML5XEdqms4p0UmnT0Q" type="ActivityCompartment">
+                <children xmi:id="_tOLeMb5XEdqms4p0UmnT0Q" element="_tOLePr5XEdqms4p0UmnT0Q">
+                  <children xmi:id="_tlOy8wW9Ed6M6qEpqrl06g" type="ImageCompartment">
+                    <layoutConstraint xmi:type="notation:Size" xmi:id="_tlOy9AW9Ed6M6qEpqrl06g" width="1320" height="1320"/>
+                  </children>
+                  <children xmi:id="_tOLeMr5XEdqms4p0UmnT0Q" type="Stereotype"/>
+                  <children xmi:id="_tlOy9QW9Ed6M6qEpqrl06g" type="InPartitions"/>
+                  <children xmi:id="_tOLeM75XEdqms4p0UmnT0Q" type="Name"/>
+                  <children xmi:id="_tlOy9gW9Ed6M6qEpqrl06g" type="Parent"/>
+                  <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_tOLeNL5XEdqms4p0UmnT0Q" fillColor="13434879" lineColor="3342489" showStereotype="Label"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tOLeNb5XEdqms4p0UmnT0Q" x="4299" y="1824"/>
+                </children>
+                <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_tOLeNr5XEdqms4p0UmnT0Q"/>
+              </children>
+              <children xmi:id="_tOLeN75XEdqms4p0UmnT0Q" type="Name"/>
+              <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_tOLeOL5XEdqms4p0UmnT0Q" showStereotype="Label"/>
+              <styles xmi:type="umlnotation:UMLFrameStyle" xmi:id="_tOLeOb5XEdqms4p0UmnT0Q"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tOLeOr5XEdqms4p0UmnT0Q"/>
+            </children>
+            <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_tOLeO75XEdqms4p0UmnT0Q"/>
+          </contents>
+        </eAnnotations>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_tOLePr5XEdqms4p0UmnT0Q" name="Action"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tOLeQb5XEdqms4p0UmnT0Q" name="Work Element Refinement Model">
+      <eAnnotations xmi:id="_tOLeQr5XEdqms4p0UmnT0Q" source="uml2.diagrams" references="_tOLeQ75XEdqms4p0UmnT0Q">
+        <contents xmi:type="notation:Diagram" xmi:id="_tOLeQ75XEdqms4p0UmnT0Q" type="Freeform" name="Main">
+          <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_tOLeRL5XEdqms4p0UmnT0Q"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <profileApplication xmi:id="_moJlSr5XEdqms4p0UmnT0Q">
+      <eAnnotations xmi:id="_moJlS75XEdqms4p0UmnT0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_moJlTb5XEdqms4p0UmnT0Q">
+      <eAnnotations xmi:id="_moJlTr5XEdqms4p0UmnT0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_IN8k8MmBEdqBcN1R6EvWUw?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_moJlUL5XEdqms4p0UmnT0Q">
+      <eAnnotations xmi:id="_moJlUb5XEdqms4p0UmnT0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_rON_sBh-Ed6hvZZunIRDdA">
+      <eAnnotations xmi:id="_rON_sRh-Ed6hvZZunIRDdA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://COMET_BM_PROFILE/COMETBusinessProfile.epx#_vtXukRhdEd68jsEWtepBlA?COMET%20Business%20Profile/COMETBusinessProfile?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://COMET_BM_PROFILE/COMETBusinessProfile.epx#_HOp8YWO1EdmtRo1knqqzCA?COMET%20Business%20Profile?"/>
+    </profileApplication>
+  </uml:Model>
+  <COMETBusinessProfile:BusinessModel xmi:id="_uTOBwBh-Ed6hvZZunIRDdA" base_Model="_moJlQL5XEdqms4p0UmnT0Q"/>
+  <COMETBusinessProfile:BusinessProcessAndRoleModel xmi:id="_vXdtABh-Ed6hvZZunIRDdA" base_Package="_tOLeKL5XEdqms4p0UmnT0Q"/>
+  <COMETBusinessProfile:BusinessProcess xmi:id="_yXP34Bh-Ed6hvZZunIRDdA" base_Activity="_tOLeLL5XEdqms4p0UmnT0Q"/>
+  <COMETBusinessProfile:BusinessResourceModel xmi:id="_zubGMBh-Ed6hvZZunIRDdA" base_Package="_tOLeEL5XEdqms4p0UmnT0Q"/>
+  <COMETBusinessProfile:Resource xmi:id="_0V6kABh-Ed6hvZZunIRDdA" base_Class="_tOLeJb5XEdqms4p0UmnT0Q"/>
+  <COMETBusinessProfile:GoalModel xmi:id="_1YrBgBh-Ed6hvZZunIRDdA" base_Package="_tOBtS75XEdqms4p0UmnT0Q"/>
+  <COMETBusinessProfile:Goal xmi:id="_2MYWYBh-Ed6hvZZunIRDdA" base_Class="_tOBtYL5XEdqms4p0UmnT0Q"/>
+  <COMETBusinessProfile:ContextStatement xmi:id="_26bIIBh-Ed6hvZZunIRDdA" base_Package="_tOBtEL5XEdqms4p0UmnT0Q"/>
+  <COMETBusinessProfile:Step xmi:id="_4PNw0Bh-Ed6hvZZunIRDdA" base_Action="_tOBtML5XEdqms4p0UmnT0Q"/>
+  <COMETBusinessProfile:RiskAnalysis xmi:id="_48g7sBh-Ed6hvZZunIRDdA" base_Package="_tOBtN75XEdqms4p0UmnT0Q"/>
+  <COMETBusinessProfile:Risk xmi:id="_5hLH8Bh-Ed6hvZZunIRDdA" base_Class="_tOBtSr5XEdqms4p0UmnT0Q"/>
+  <COMETBusinessProfile:VisionForChange xmi:id="_6WEvoBh-Ed6hvZZunIRDdA" base_Package="_tOBtM75XEdqms4p0UmnT0Q"/>
+</xmi:XMI>

@@ -1,0 +1,6 @@
+name=COMET Requirements Model
+description=Create a new COMET requirements model.
+modelName=COMET Requirements Model
+id=org.sintef.rsm.comet.rm.template.COMETRequirementsTemplate
+templateFile=COMETRequirementsTemplate.emx
+icon=COMETRequirementsTemplate.gif

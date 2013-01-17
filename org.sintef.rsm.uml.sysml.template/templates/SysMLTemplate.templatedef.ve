@@ -1,0 +1,6 @@
+name=SysML Model
+description=Create a new SysML model.
+modelName=SysML Model
+id=org.sintef.rsm.uml.bmm.template.SysMLTemplate
+templateFile=SysMLTemplate.emx
+icon=SysMLTemplate.gif

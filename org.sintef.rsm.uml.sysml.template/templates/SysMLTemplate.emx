@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_ncIekGO3EdmtRo1knqqzCA" name="SysML Model">
+  <eAnnotations xmi:id="_ncIekWO3EdmtRo1knqqzCA" source="uml2.diagrams"/>
+  <eAnnotations xmi:id="_bWG2AGO5EdmtRo1knqqzCA" source="http://www.eclipse.org/emf/2002/Ecore"/>
+  <packageImport xmi:id="_ncIeo2O3EdmtRo1knqqzCA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <profileApplication xmi:id="_ncIel2O3EdmtRo1knqqzCA">
+    <eAnnotations xmi:id="_ncIemGO3EdmtRo1knqqzCA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_ncIenWO3EdmtRo1knqqzCA">
+    <eAnnotations xmi:id="_ncIenmO3EdmtRo1knqqzCA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_IN8k8MmBEdqBcN1R6EvWUw?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_ncIeoGO3EdmtRo1knqqzCA">
+    <eAnnotations xmi:id="_ncIeoWO3EdmtRo1knqqzCA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_fo-J0Bn9Ed6rHMPJQNsDZQ">
+    <eAnnotations xmi:id="_fpH60Bn9Ed6rHMPJQNsDZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://SYSML_PROFILES/SysMLProfile.epx#_uAQqYRn7Ed6zBPg1vEsKyA?SysML/SysML?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://SYSML_PROFILES/SysMLProfile.epx#_FewBABnvEd6zBPg1vEsKyA?SysML?"/>
+  </profileApplication>
+</uml:Model>

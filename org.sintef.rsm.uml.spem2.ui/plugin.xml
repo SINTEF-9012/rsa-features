@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="org.sintef.rsm.uml.spem2.ui"
+   name="UI Tooling for SPEM 2.x (Plugin)"
+   version="0.2.0"
+   provider-name="SINTEF ICT">
+
+  <requires>
+     <import plugin="com.ibm.xtools.emf.msl"/>
+     <import plugin="com.ibm.xtools.uml.msl"/>
+  </requires>
+
+  <extension id="SOAML_PROFILES" name="SOAML_PROFILES" point="org.eclipse.gmf.runtime.emf.core.Pathmaps">
+      <pathmap path="Profiles" name="SOAML_PROFILES" />
+  </extension>
+
+  <extension id="SOAML_Profile" name="SOAML Profile" point="com.ibm.xtools.uml.msl.UMLProfiles">
+     <UMLProfile name="UML Profile for SoaML" path="pathmap://SOAML_PROFILES/UML Profile for SoaML.epx" visible="true" /> 
+  </extension>
+
+</plugin>

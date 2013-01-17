@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.profile" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ProfileBase="http:///schemas/ProfileBase/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xsi:schemaLocation="http:///schemas/ProfileBase/1 pathmap://UML2_MSL_PROFILES/ProfileBase.epx#_IfFYQMmBEdqBcN1R6EvWUw?ProfileBase/ProfileBase?">
+  <uml:Profile xmi:id="_LZjAwWO7EdmtRo1knqqzCA" name="COMET Requirements Profile" metamodelReference="_LZjAw2O7EdmtRo1knqqzCA">
+    <eAnnotations xmi:id="_LZjAyWO7EdmtRo1knqqzCA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_vvRVkRhpEd6TTMPILZ-t3g" name="COMETRequirementsProfile" nsURI="http:///schemas/COMETRequirementsProfile/_vvRVkBhpEd6TTMPILZ-t3g/14" nsPrefix="COMETRequirementsProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVkhhpEd6TTMPILZ-t3g" name="RequirementsModel">
+          <eAnnotations xmi:id="_vvRVkxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVlBhpEd6TTMPILZ-t3g" name="base_Model" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVlhhpEd6TTMPILZ-t3g" name="SystemBoundaryModel">
+          <eAnnotations xmi:id="_vvRVlxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVmBhpEd6TTMPILZ-t3g" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVmhhpEd6TTMPILZ-t3g" name="BCEAnalysisModel">
+          <eAnnotations xmi:id="_vvRVmxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XCQqwIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVnBhpEd6TTMPILZ-t3g" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVnhhpEd6TTMPILZ-t3g" name="HumanRole">
+          <eAnnotations xmi:id="_vvRVnxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xI1LAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVoBhpEd6TTMPILZ-t3g" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVohhpEd6TTMPILZ-t3g" name="EventRole">
+          <eAnnotations xmi:id="_vvRVoxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z65qAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVpBhpEd6TTMPILZ-t3g" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVphhpEd6TTMPILZ-t3g" name="SystemRole">
+          <eAnnotations xmi:id="_vvRVpxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_3pUcgIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVqBhpEd6TTMPILZ-t3g" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVqhhpEd6TTMPILZ-t3g" name="Manage">
+          <eAnnotations xmi:id="_vvRVqxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_czHb0IqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVrBhpEd6TTMPILZ-t3g" name="base_UseCase" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//UseCase"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVrhhpEd6TTMPILZ-t3g" name="Prototype">
+          <eAnnotations xmi:id="_vvRVrxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhTyIIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVsBhpEd6TTMPILZ-t3g" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVshhpEd6TTMPILZ-t3g" name="SystemVision">
+          <eAnnotations xmi:id="_vvRVsxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uoZbUIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVtBhpEd6TTMPILZ-t3g" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVthhpEd6TTMPILZ-t3g" name="Requirement">
+          <eAnnotations xmi:id="_vvRVtxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xhUJMIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVuBhpEd6TTMPILZ-t3g" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVuhhpEd6TTMPILZ-t3g" name="Requirements">
+          <eAnnotations xmi:id="_vvRVuxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ub9EQItzEdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVvBhpEd6TTMPILZ-t3g" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVvhhpEd6TTMPILZ-t3g" name="Boundary">
+          <eAnnotations xmi:id="_vvRVvxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_JxWvIIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVwBhpEd6TTMPILZ-t3g" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVwhhpEd6TTMPILZ-t3g" name="Control">
+          <eAnnotations xmi:id="_vvRVwxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MLbk4It0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVxBhpEd6TTMPILZ-t3g" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVxhhpEd6TTMPILZ-t3g" name="Entity">
+          <eAnnotations xmi:id="_vvRVxxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OJM5IIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVyBhpEd6TTMPILZ-t3g" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_vvRVyhhpEd6TTMPILZ-t3g" name="includeRequirement">
+          <eAnnotations xmi:id="_vvRVyxhpEd6TTMPILZ-t3g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_T49RQIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_vvRVzBhpEd6TTMPILZ-t3g" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_n6ihAQW9Ed6M6qEpqrl06g" name="COMETRequirementsProfile" nsURI="http:///schemas/COMETRequirementsProfile/_n6ihAAW9Ed6M6qEpqrl06g/13" nsPrefix="COMETRequirementsProfile">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihAgW9Ed6M6qEpqrl06g" name="RequirementsModel">
+          <eAnnotations xmi:id="_n6ihAwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihBAW9Ed6M6qEpqrl06g" name="base_Model" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihBgW9Ed6M6qEpqrl06g" name="SystemBoundaryModel">
+          <eAnnotations xmi:id="_n6ihBwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihCAW9Ed6M6qEpqrl06g" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihCgW9Ed6M6qEpqrl06g" name="BCEAnalysisModel">
+          <eAnnotations xmi:id="_n6ihCwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XCQqwIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihDAW9Ed6M6qEpqrl06g" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihDgW9Ed6M6qEpqrl06g" name="HumanRole">
+          <eAnnotations xmi:id="_n6ihDwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xI1LAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihEAW9Ed6M6qEpqrl06g" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihEgW9Ed6M6qEpqrl06g" name="EventRole">
+          <eAnnotations xmi:id="_n6ihEwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z65qAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihFAW9Ed6M6qEpqrl06g" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihFgW9Ed6M6qEpqrl06g" name="SystemRole">
+          <eAnnotations xmi:id="_n6ihFwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_3pUcgIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihGAW9Ed6M6qEpqrl06g" name="base_Actor" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihGgW9Ed6M6qEpqrl06g" name="Manage">
+          <eAnnotations xmi:id="_n6ihGwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_czHb0IqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihHAW9Ed6M6qEpqrl06g" name="base_UseCase" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//UseCase"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihHgW9Ed6M6qEpqrl06g" name="Prototype">
+          <eAnnotations xmi:id="_n6ihHwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhTyIIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihIAW9Ed6M6qEpqrl06g" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihIgW9Ed6M6qEpqrl06g" name="SystemVision">
+          <eAnnotations xmi:id="_n6ihIwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uoZbUIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihJAW9Ed6M6qEpqrl06g" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihJgW9Ed6M6qEpqrl06g" name="Requirement">
+          <eAnnotations xmi:id="_n6ihJwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xhUJMIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihKAW9Ed6M6qEpqrl06g" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihKgW9Ed6M6qEpqrl06g" name="Requirements">
+          <eAnnotations xmi:id="_n6ihKwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ub9EQItzEdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihLAW9Ed6M6qEpqrl06g" name="base_Package" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihLgW9Ed6M6qEpqrl06g" name="Boundary">
+          <eAnnotations xmi:id="_n6ihLwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_JxWvIIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihMAW9Ed6M6qEpqrl06g" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihMgW9Ed6M6qEpqrl06g" name="Control">
+          <eAnnotations xmi:id="_n6ihMwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MLbk4It0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihNAW9Ed6M6qEpqrl06g" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihNgW9Ed6M6qEpqrl06g" name="Entity">
+          <eAnnotations xmi:id="_n6ihNwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OJM5IIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihOAW9Ed6M6qEpqrl06g" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_n6ihOgW9Ed6M6qEpqrl06g" name="includeRequirement">
+          <eAnnotations xmi:id="_n6ihOwW9Ed6M6qEpqrl06g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_T49RQIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_n6ihPAW9Ed6M6qEpqrl06g" name="base_Dependency" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_6nDdQIt1EdmLusw0lbDuXA" name="COMETRequirementsProfile_12" nsURI="http:///_6m5sQIt1EdmLusw0lbDuXA.profile.uml2" nsPrefix="COMETRequirementsProfile_12">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdQYt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirement">
+          <eAnnotations xmi:id="_6nDdQot1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xhUJMIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3OMAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdQ4t1EdmLusw0lbDuXA" name="COMETRequirementsProfile__RequirementsModel">
+          <eAnnotations xmi:id="_6nDdRIt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3OMgW9Ed6M6qEpqrl06g" name="base_Model">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdRYt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Manage">
+          <eAnnotations xmi:id="_6nDdRot1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_czHb0IqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3ONAW9Ed6M6qEpqrl06g" name="base_UseCase">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//UseCase"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdR4t1EdmLusw0lbDuXA" name="COMETRequirementsProfile__includeRequirement">
+          <eAnnotations xmi:id="_6nDdSIt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_T49RQIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3ONgW9Ed6M6qEpqrl06g" name="base_Dependency">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdSYt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemBoundaryModel">
+          <eAnnotations xmi:id="_6nDdSot1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3OOAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdS4t1EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemRole">
+          <eAnnotations xmi:id="_6nDdTIt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_3pUcgIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3OOgW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdTYt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__HumanRole">
+          <eAnnotations xmi:id="_6nDdTot1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xI1LAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3OPAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdT4t1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Control">
+          <eAnnotations xmi:id="_6nDdUIt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MLbk4It0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3OPgW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdUYt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Prototype">
+          <eAnnotations xmi:id="_6nDdUot1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhTyIIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3OQAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdU4t1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirements">
+          <eAnnotations xmi:id="_6nDdVIt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ub9EQItzEdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3OQgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdVYt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemVision">
+          <eAnnotations xmi:id="_6nDdVot1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uoZbUIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3ORAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdV4t1EdmLusw0lbDuXA" name="COMETRequirementsProfile__BCEAnalysisModel">
+          <eAnnotations xmi:id="_6nDdWIt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XCQqwIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3ORgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdWYt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__EventRole">
+          <eAnnotations xmi:id="_6nDdWot1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z65qAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3OSAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdW4t1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Boundary">
+          <eAnnotations xmi:id="_6nDdXIt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_JxWvIIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3OSgW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6nDdXYt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Entity">
+          <eAnnotations xmi:id="_6nDdXot1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OJM5IIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lm3OTAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_KNQLgYt1EdmLusw0lbDuXA" name="COMETRequirementsProfile_11" nsURI="http:///_KNQLgIt1EdmLusw0lbDuXA.profile.uml2" nsPrefix="COMETRequirementsProfile_11">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLgot1EdmLusw0lbDuXA" name="COMETRequirementsProfile__BCEAnalysisModel">
+          <eAnnotations xmi:id="_KNQLg4t1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XCQqwIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_MAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLhIt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemBoundaryModel">
+          <eAnnotations xmi:id="_KNQLhYt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_MgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLhot1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Control">
+          <eAnnotations xmi:id="_KNQLh4t1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MLbk4It0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_NAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLiIt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Manage">
+          <eAnnotations xmi:id="_KNQLiYt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_czHb0IqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_NgW9Ed6M6qEpqrl06g" name="base_UseCase">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//UseCase"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLiot1EdmLusw0lbDuXA" name="COMETRequirementsProfile__EventRole">
+          <eAnnotations xmi:id="_KNQLi4t1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z65qAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_OAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLjIt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Prototype">
+          <eAnnotations xmi:id="_KNQLjYt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhTyIIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_OgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLjot1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Boundary">
+          <eAnnotations xmi:id="_KNQLj4t1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_JxWvIIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_PAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLkIt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__includeRequirement">
+          <eAnnotations xmi:id="_KNQLkYt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_T49RQIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_PgW9Ed6M6qEpqrl06g" name="base_Dependency">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLkot1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirements">
+          <eAnnotations xmi:id="_KNQLk4t1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ub9EQItzEdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_QAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLlIt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemVision">
+          <eAnnotations xmi:id="_KNQLlYt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uoZbUIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_QgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLlot1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Entity">
+          <eAnnotations xmi:id="_KNQLl4t1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OJM5IIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_RAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLmIt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__RequirementsModel">
+          <eAnnotations xmi:id="_KNQLmYt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_RgW9Ed6M6qEpqrl06g" name="base_Model">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLmot1EdmLusw0lbDuXA" name="COMETRequirementsProfile__HumanRole">
+          <eAnnotations xmi:id="_KNQLm4t1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xI1LAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_SAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLnIt1EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemRole">
+          <eAnnotations xmi:id="_KNQLnYt1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_3pUcgIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_SgW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_KNQLnot1EdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirement">
+          <eAnnotations xmi:id="_KNQLn4t1EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xhUJMIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_TAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_xXcvkYt0EdmLusw0lbDuXA" name="COMETRequirementsProfile_10" nsURI="http:///_xXcvkIt0EdmLusw0lbDuXA.profile.uml2" nsPrefix="COMETRequirementsProfile_10">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvkot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__BCEAnalysisModel">
+          <eAnnotations xmi:id="_xXcvk4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XCQqwIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_TgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvlIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemBoundaryModel">
+          <eAnnotations xmi:id="_xXcvlYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_UAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvlot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Control">
+          <eAnnotations xmi:id="_xXcvl4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MLbk4It0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_UgW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvmIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Manage">
+          <eAnnotations xmi:id="_xXcvmYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_czHb0IqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_VAW9Ed6M6qEpqrl06g" name="base_UseCase">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//UseCase"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvmot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__EventRole">
+          <eAnnotations xmi:id="_xXcvm4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z65qAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_VgW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvnIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Prototype">
+          <eAnnotations xmi:id="_xXcvnYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhTyIIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_WAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvnot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Boundary">
+          <eAnnotations xmi:id="_xXcvn4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_JxWvIIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_WgW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvoIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__includeRequirement">
+          <eAnnotations xmi:id="_xXcvoYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_T49RQIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_XAW9Ed6M6qEpqrl06g" name="base_Dependency">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvoot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirements">
+          <eAnnotations xmi:id="_xXcvo4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ub9EQItzEdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_XgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvpIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemVision">
+          <eAnnotations xmi:id="_xXcvpYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uoZbUIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_YAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvpot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Entity">
+          <eAnnotations xmi:id="_xXcvp4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OJM5IIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_YgW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvqIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__RequirementsModel">
+          <eAnnotations xmi:id="_xXcvqYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_ZAW9Ed6M6qEpqrl06g" name="base_Model">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvqot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__HumanRole">
+          <eAnnotations xmi:id="_xXcvq4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xI1LAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_ZgW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvrIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__traceToComponent">
+          <eAnnotations xmi:id="_xXcvrYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvrot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemRole">
+          <eAnnotations xmi:id="_xXcvr4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_3pUcgIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_aAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_xXcvsIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirement">
+          <eAnnotations xmi:id="_xXcvsYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xhUJMIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_agW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_Xf7X8Yt0EdmLusw0lbDuXA" name="COMETRequirementsProfile_9" nsURI="http:///_Xf7X8It0EdmLusw0lbDuXA.profile.uml2" nsPrefix="COMETRequirementsProfile_9">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7X8ot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__BCEAnalysisModel">
+          <eAnnotations xmi:id="_Xf7X84t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XCQqwIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_bAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7X9It0EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemBoundaryModel">
+          <eAnnotations xmi:id="_Xf7X9Yt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_bgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7X9ot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Control">
+          <eAnnotations xmi:id="_Xf7X94t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MLbk4It0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_cAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7X-It0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Manage">
+          <eAnnotations xmi:id="_Xf7X-Yt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_czHb0IqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_cgW9Ed6M6qEpqrl06g" name="base_UseCase">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//UseCase"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7X-ot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__EventRole">
+          <eAnnotations xmi:id="_Xf7X-4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z65qAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_dAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7X_It0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Prototype">
+          <eAnnotations xmi:id="_Xf7X_Yt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhTyIIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_dgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7X_ot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Boundary">
+          <eAnnotations xmi:id="_Xf7X_4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_JxWvIIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_eAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7YAIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__traceToRequirement">
+          <eAnnotations xmi:id="_Xf7YAYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_T49RQIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_egW9Ed6M6qEpqrl06g" name="base_Dependency">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Dependency"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7YAot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirements">
+          <eAnnotations xmi:id="_Xf7YA4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ub9EQItzEdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_fAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7YBIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemVision">
+          <eAnnotations xmi:id="_Xf7YBYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uoZbUIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_fgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7YBot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Entity">
+          <eAnnotations xmi:id="_Xf7YB4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OJM5IIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_gAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7YCIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__RequirementsModel">
+          <eAnnotations xmi:id="_Xf7YCYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_ggW9Ed6M6qEpqrl06g" name="base_Model">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7YCot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__HumanRole">
+          <eAnnotations xmi:id="_Xf7YC4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xI1LAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_hAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7YDIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__traceToComponent">
+          <eAnnotations xmi:id="_Xf7YDYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7YDot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemRole">
+          <eAnnotations xmi:id="_Xf7YD4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_3pUcgIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_hgW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_Xf7YEIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirement">
+          <eAnnotations xmi:id="_Xf7YEYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xhUJMIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_iAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_RRnbkYt0EdmLusw0lbDuXA" name="COMETRequirementsProfile_8" nsURI="http:///_RRnbkIt0EdmLusw0lbDuXA.profile.uml2" nsPrefix="COMETRequirementsProfile_8">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnbkot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__BCEAnalysisModel">
+          <eAnnotations xmi:id="_RRnbk4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XCQqwIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_igW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnblIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemBoundaryModel">
+          <eAnnotations xmi:id="_RRnblYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_jAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnblot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Control">
+          <eAnnotations xmi:id="_RRnbl4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MLbk4It0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_jgW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnbmIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Manage">
+          <eAnnotations xmi:id="_RRnbmYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_czHb0IqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_kAW9Ed6M6qEpqrl06g" name="base_UseCase">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//UseCase"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnbmot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__EventRole">
+          <eAnnotations xmi:id="_RRnbm4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z65qAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_kgW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnbnIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Prototype">
+          <eAnnotations xmi:id="_RRnbnYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhTyIIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_lAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnbnot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Boundary">
+          <eAnnotations xmi:id="_RRnbn4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_JxWvIIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_lgW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnboIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirements">
+          <eAnnotations xmi:id="_RRnboYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ub9EQItzEdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_mAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnboot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemVision">
+          <eAnnotations xmi:id="_RRnbo4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uoZbUIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_mgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnbpIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Entity">
+          <eAnnotations xmi:id="_RRnbpYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_OJM5IIt0EdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_nAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnbpot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__RequirementsModel">
+          <eAnnotations xmi:id="_RRnbp4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_ngW9Ed6M6qEpqrl06g" name="base_Model">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnbqIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__HumanRole">
+          <eAnnotations xmi:id="_RRnbqYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xI1LAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_oAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnbqot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__traceToComponent">
+          <eAnnotations xmi:id="_RRnbq4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnbrIt0EdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemRole">
+          <eAnnotations xmi:id="_RRnbrYt0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_3pUcgIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_ogW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_RRnbrot0EdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirement">
+          <eAnnotations xmi:id="_RRnbr4t0EdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xhUJMIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_pAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_yBSMMYtzEdmLusw0lbDuXA" name="COMETRequirementsProfile_7" nsURI="http:///_yBSMMItzEdmLusw0lbDuXA.profile.uml2" nsPrefix="COMETRequirementsProfile_7">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMMotzEdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirements">
+          <eAnnotations xmi:id="_yBSMM4tzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ub9EQItzEdmLusw0lbDuXA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_pgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMNItzEdmLusw0lbDuXA" name="COMETRequirementsProfile__BCEAnalysisModel">
+          <eAnnotations xmi:id="_yBSMNYtzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XCQqwIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_qAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMNotzEdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemVision">
+          <eAnnotations xmi:id="_yBSMN4tzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uoZbUIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_qgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMOItzEdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemBoundaryModel">
+          <eAnnotations xmi:id="_yBSMOYtzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_rAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMOotzEdmLusw0lbDuXA" name="COMETRequirementsProfile__traceToComponent">
+          <eAnnotations xmi:id="_yBSMO4tzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMPItzEdmLusw0lbDuXA" name="COMETRequirementsProfile__HumanRole">
+          <eAnnotations xmi:id="_yBSMPYtzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xI1LAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_rgW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMPotzEdmLusw0lbDuXA" name="COMETRequirementsProfile__RequirementsModel">
+          <eAnnotations xmi:id="_yBSMP4tzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_sAW9Ed6M6qEpqrl06g" name="base_Model">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMQItzEdmLusw0lbDuXA" name="COMETRequirementsProfile__Manage">
+          <eAnnotations xmi:id="_yBSMQYtzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_czHb0IqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_sgW9Ed6M6qEpqrl06g" name="base_UseCase">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//UseCase"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMQotzEdmLusw0lbDuXA" name="COMETRequirementsProfile__SystemRole">
+          <eAnnotations xmi:id="_yBSMQ4tzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_3pUcgIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_tAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMRItzEdmLusw0lbDuXA" name="COMETRequirementsProfile__Prototype">
+          <eAnnotations xmi:id="_yBSMRYtzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhTyIIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_tgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMRotzEdmLusw0lbDuXA" name="COMETRequirementsProfile__EventRole">
+          <eAnnotations xmi:id="_yBSMR4tzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z65qAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_uAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_yBSMSItzEdmLusw0lbDuXA" name="COMETRequirementsProfile__Requirement">
+          <eAnnotations xmi:id="_yBSMSYtzEdmLusw0lbDuXA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xhUJMIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_ugW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_8xyX4IqjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile_6" nsURI="http:///_8vtUQIqjEdmEu6OwhqPRUQ.profile.uml2" nsPrefix="COMETRequirementsProfile_6">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8xyX4YqjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile__SystemVision">
+          <eAnnotations xmi:id="_8xyX4oqjEdmEu6OwhqPRUQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_uoZbUIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_vAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8xyX44qjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile__Manage">
+          <eAnnotations xmi:id="_8xyX5IqjEdmEu6OwhqPRUQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_czHb0IqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_vgW9Ed6M6qEpqrl06g" name="base_UseCase">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//UseCase"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8xyX5YqjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile__Requirement">
+          <eAnnotations xmi:id="_8xyX5oqjEdmEu6OwhqPRUQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xhUJMIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_wAW9Ed6M6qEpqrl06g" name="base_Class">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8xyX54qjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile__RequirementsModel">
+          <eAnnotations xmi:id="_8xyX6IqjEdmEu6OwhqPRUQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_wgW9Ed6M6qEpqrl06g" name="base_Model">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8xyX6YqjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile__SystemRole">
+          <eAnnotations xmi:id="_8xyX6oqjEdmEu6OwhqPRUQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_3pUcgIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_xAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8xyX64qjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile__Prototype">
+          <eAnnotations xmi:id="_8xyX7IqjEdmEu6OwhqPRUQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_jhTyIIqjEdmEu6OwhqPRUQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_xgW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8xyX7YqjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile__EventRole">
+          <eAnnotations xmi:id="_8xyX7oqjEdmEu6OwhqPRUQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z65qAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_yAW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8xyX74qjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile__traceToComponent">
+          <eAnnotations xmi:id="_8xyX8IqjEdmEu6OwhqPRUQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8xyX8YqjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile__SystemBoundaryModel">
+          <eAnnotations xmi:id="_8xyX8oqjEdmEu6OwhqPRUQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_ygW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8xyX84qjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile__BCEAnalysisModel">
+          <eAnnotations xmi:id="_8xyX9IqjEdmEu6OwhqPRUQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XCQqwIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_zAW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_8xyX9YqjEdmEu6OwhqPRUQ" name="COMETRequirementsProfile__HumanRole">
+          <eAnnotations xmi:id="_8xyX9oqjEdmEu6OwhqPRUQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xI1LAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_zgW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_6Fe88YqTEdmYWbj4QyqqPQ" name="COMETRequirementsProfile_5" nsURI="http:///_6Fe88IqTEdmYWbj4QyqqPQ.profile.uml2" nsPrefix="COMETRequirementsProfile_5">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6Fe88oqTEdmYWbj4QyqqPQ" name="COMETRequirementsProfile__HumanRole">
+          <eAnnotations xmi:id="_6Fe884qTEdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_xI1LAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_0AW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6Fe89IqTEdmYWbj4QyqqPQ" name="COMETRequirementsProfile__EventRole">
+          <eAnnotations xmi:id="_6Fe89YqTEdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z65qAIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_0gW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6Fe89oqTEdmYWbj4QyqqPQ" name="COMETRequirementsProfile__SystemBoundaryModel">
+          <eAnnotations xmi:id="_6Fe894qTEdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_1AW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6Fe8-IqTEdmYWbj4QyqqPQ" name="COMETRequirementsProfile__RequirementsModel">
+          <eAnnotations xmi:id="_6Fe8-YqTEdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_1gW9Ed6M6qEpqrl06g" name="base_Model">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6Fe8-oqTEdmYWbj4QyqqPQ" name="COMETRequirementsProfile__BCEAnalysisModel">
+          <eAnnotations xmi:id="_6Fe8-4qTEdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XCQqwIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_2AW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6Fe8_IqTEdmYWbj4QyqqPQ" name="COMETRequirementsProfile__SystemRole">
+          <eAnnotations xmi:id="_6Fe8_YqTEdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_3pUcgIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_2gW9Ed6M6qEpqrl06g" name="base_Actor">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Actor"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_bdh8MYqTEdmYWbj4QyqqPQ" name="COMETRequirementsProfile_4" nsURI="http:///_bdh8MIqTEdmYWbj4QyqqPQ.profile.uml2" nsPrefix="COMETRequirementsProfile_4">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bdh8MoqTEdmYWbj4QyqqPQ" name="COMETRequirementsProfile__BCEAnalysisModel">
+          <eAnnotations xmi:id="_bdh8M4qTEdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_XCQqwIqTEdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_3AW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bdh8NIqTEdmYWbj4QyqqPQ" name="COMETRequirementsProfile__SystemBoundaryModel">
+          <eAnnotations xmi:id="_bdh8NYqTEdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_3gW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_bdh8NoqTEdmYWbj4QyqqPQ" name="COMETRequirementsProfile__RequirementsModel">
+          <eAnnotations xmi:id="_bdh8N4qTEdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_4AW9Ed6M6qEpqrl06g" name="base_Model">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_-CcMoYqREdmYWbj4QyqqPQ" name="COMETRequirementsProfile_3" nsURI="http:///_-CcMoIqREdmYWbj4QyqqPQ.profile.uml2" nsPrefix="COMETRequirementsProfile_3">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_-CcMooqREdmYWbj4QyqqPQ" name="COMETRequirementsProfile__RequirementsModel">
+          <eAnnotations xmi:id="_-CcMo4qREdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_4gW9Ed6M6qEpqrl06g" name="base_Model">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_-CcMpIqREdmYWbj4QyqqPQ" name="COMETRequirementsProfile__SystemBoundaryModel">
+          <eAnnotations xmi:id="_-CcMpYqREdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_cS9aQIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_5AW9Ed6M6qEpqrl06g" name="base_Package">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Package"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_SKdgQYqREdmYWbj4QyqqPQ" name="COMETRequirementsProfile_2" nsURI="http:///_SKdgQIqREdmYWbj4QyqqPQ.profile.uml2" nsPrefix="COMETRequirementsProfile_2">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_SKdgQoqREdmYWbj4QyqqPQ" name="COMETRequirementsProfile__RequirementsModel">
+          <eAnnotations xmi:id="_SKdgQ4qREdmYWbj4QyqqPQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KVfIEIqREdmYWbj4QyqqPQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_lnA_5gW9Ed6M6qEpqrl06g" name="base_Model">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/2.1.0/UML#//Model"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_7K07wYqQEdmYWbj4QyqqPQ" name="COMETRequirementsProfile_1" nsURI="http:///_7K07wIqQEdmYWbj4QyqqPQ.profile.uml2" nsPrefix="COMETRequirementsProfile_1"/>
+      <contents xmi:type="ecore:EPackage" xmi:id="_LZjAy2O7EdmtRo1knqqzCA" name="COMETRequirementsProfile_0" nsURI="http:///_LZjAymO7EdmtRo1knqqzCA.profile.uml2" nsPrefix="COMETRequirementsProfile_0"/>
+    </eAnnotations>
+    <packageImport xmi:id="_LZjAwmO7EdmtRo1knqqzCA">
+      <eAnnotations xmi:id="_7K07woqQEdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_7K07w4qQEdmYWbj4QyqqPQ" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="_LZjAw2O7EdmtRo1knqqzCA" visibility="private">
+      <eAnnotations xmi:id="_7K07xIqQEdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_7K07xYqQEdmYWbj4QyqqPQ" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_KVfIEIqREdmYWbj4QyqqPQ" name="RequirementsModel">
+      <eAnnotations xmi:id="_SKdgRIqREdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_SKdgRYqREdmYWbj4QyqqPQ" key="addedInVersion" value="2"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_O65M84qREdmYWbj4QyqqPQ" name="base_Model" association="_O65M8IqREdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_SKdgRoqREdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_SKdgR4qREdmYWbj4QyqqPQ" key="addedInVersion" value="2"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Model"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_O65M8IqREdmYWbj4QyqqPQ" name="Model_RequirementsModel" memberEnd="_O65M8YqREdmYWbj4QyqqPQ _O65M84qREdmYWbj4QyqqPQ">
+      <eAnnotations xmi:id="_SKdgSIqREdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_SKdgSYqREdmYWbj4QyqqPQ" key="addedInVersion" value="2"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_O65M8YqREdmYWbj4QyqqPQ" name="extension_RequirementsModel" type="_KVfIEIqREdmYWbj4QyqqPQ" aggregation="composite" association="_O65M8IqREdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_SKdgSoqREdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_SKdgS4qREdmYWbj4QyqqPQ" key="addedInVersion" value="2"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_cS9aQIqREdmYWbj4QyqqPQ" name="SystemBoundaryModel">
+      <eAnnotations xmi:id="_-CcMpoqREdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_-CcMp4qREdmYWbj4QyqqPQ" key="addedInVersion" value="3"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_k40c04qREdmYWbj4QyqqPQ" name="base_Package" association="_k40c0IqREdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_-CcMqIqREdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_-CcMqYqREdmYWbj4QyqqPQ" key="addedInVersion" value="3"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <icon xmi:id="_nGYgMAW9Ed6M6qEpqrl06g">
+        <eAnnotations xmi:id="_n6ihPgW9Ed6M6qEpqrl06g" source="uml2.extensions">
+          <details xmi:id="_n6ihPwW9Ed6M6qEpqrl06g" key="addedInVersion" value="13"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_k40c0IqREdmYWbj4QyqqPQ" name="Package_SystemBoundaryModel" memberEnd="_k40c0YqREdmYWbj4QyqqPQ _k40c04qREdmYWbj4QyqqPQ">
+      <eAnnotations xmi:id="_-CcMqoqREdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_-CcMq4qREdmYWbj4QyqqPQ" key="addedInVersion" value="3"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_k40c0YqREdmYWbj4QyqqPQ" name="extension_SystemBoundaryModel" type="_cS9aQIqREdmYWbj4QyqqPQ" aggregation="composite" association="_k40c0IqREdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_-CcMrIqREdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_-CcMrYqREdmYWbj4QyqqPQ" key="addedInVersion" value="3"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_XCQqwIqTEdmYWbj4QyqqPQ" name="BCEAnalysisModel">
+      <eAnnotations xmi:id="_bdh8OIqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_bdh8OYqTEdmYWbj4QyqqPQ" key="addedInVersion" value="4"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_Zek8M4qTEdmYWbj4QyqqPQ" name="base_Package" association="_Zek8MIqTEdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_bdh8OoqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_bdh8O4qTEdmYWbj4QyqqPQ" key="addedInVersion" value="4"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_Zek8MIqTEdmYWbj4QyqqPQ" name="Package_BCEAnalysisModel" memberEnd="_Zek8MYqTEdmYWbj4QyqqPQ _Zek8M4qTEdmYWbj4QyqqPQ">
+      <eAnnotations xmi:id="_bdh8PIqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_bdh8PYqTEdmYWbj4QyqqPQ" key="addedInVersion" value="4"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_Zek8MYqTEdmYWbj4QyqqPQ" name="extension_BCEAnalysisModel" type="_XCQqwIqTEdmYWbj4QyqqPQ" aggregation="composite" association="_Zek8MIqTEdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_bdh8PoqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_bdh8P4qTEdmYWbj4QyqqPQ" key="addedInVersion" value="4"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_xI1LAIqTEdmYWbj4QyqqPQ" name="HumanRole">
+      <eAnnotations xmi:id="_6FoG4IqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_6FoG4YqTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_zbdU84qTEdmYWbj4QyqqPQ" name="base_Actor" association="_zbdU8IqTEdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_6FoG4oqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_6FoG44qTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Actor"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_zbdU8IqTEdmYWbj4QyqqPQ" name="Actor_HumanRole" memberEnd="_zbdU8YqTEdmYWbj4QyqqPQ _zbdU84qTEdmYWbj4QyqqPQ">
+      <eAnnotations xmi:id="_6FoG5IqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_6FoG5YqTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_zbdU8YqTEdmYWbj4QyqqPQ" name="extension_HumanRole" type="_xI1LAIqTEdmYWbj4QyqqPQ" aggregation="composite" association="_zbdU8IqTEdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_6FoG5oqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_6FoG54qTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_z65qAIqTEdmYWbj4QyqqPQ" name="EventRole">
+      <eAnnotations xmi:id="_6FoG6oqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_6FoG64qTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_3J4Hc4qTEdmYWbj4QyqqPQ" name="base_Actor" association="_3J4HcIqTEdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_6FoG7IqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_6FoG7YqTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Actor"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_3J4HcIqTEdmYWbj4QyqqPQ" name="Actor_EventRole" memberEnd="_3J4HcYqTEdmYWbj4QyqqPQ _3J4Hc4qTEdmYWbj4QyqqPQ">
+      <eAnnotations xmi:id="_6FoG7oqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_6FoG74qTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_3J4HcYqTEdmYWbj4QyqqPQ" name="extension_EventRole" type="_z65qAIqTEdmYWbj4QyqqPQ" aggregation="composite" association="_3J4HcIqTEdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_6FoG8IqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_6FoG8YqTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_3pUcgIqTEdmYWbj4QyqqPQ" name="SystemRole">
+      <eAnnotations xmi:id="_6FoG9IqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_6FoG9YqTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_5kskE4qTEdmYWbj4QyqqPQ" name="base_Actor" association="_5kskEIqTEdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_6FoG9oqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_6FoG94qTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Actor"/>
+      </ownedAttribute>
+      <icon xmi:id="_nGYgMgW9Ed6M6qEpqrl06g">
+        <eAnnotations xmi:id="_n6ihQAW9Ed6M6qEpqrl06g" source="uml2.extensions">
+          <details xmi:id="_n6ihQQW9Ed6M6qEpqrl06g" key="addedInVersion" value="13"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_5kskEIqTEdmYWbj4QyqqPQ" name="Actor_SystemRole" memberEnd="_5kskEYqTEdmYWbj4QyqqPQ _5kskE4qTEdmYWbj4QyqqPQ">
+      <eAnnotations xmi:id="_6FoG-IqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_6FoG-YqTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_5kskEYqTEdmYWbj4QyqqPQ" name="extension_SystemRole" type="_3pUcgIqTEdmYWbj4QyqqPQ" aggregation="composite" association="_5kskEIqTEdmYWbj4QyqqPQ">
+        <eAnnotations xmi:id="_6FoG-oqTEdmYWbj4QyqqPQ" source="uml2.extensions">
+          <details xmi:id="_6FoG-4qTEdmYWbj4QyqqPQ" key="addedInVersion" value="5"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_czHb0IqjEdmEu6OwhqPRUQ" name="Manage">
+      <eAnnotations xmi:id="_8xyYAYqjEdmEu6OwhqPRUQ" source="uml2.extensions">
+        <details xmi:id="_8xyYAoqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_eMhew4qjEdmEu6OwhqPRUQ" name="base_UseCase" association="_eMhewIqjEdmEu6OwhqPRUQ">
+        <eAnnotations xmi:id="_8xyYA4qjEdmEu6OwhqPRUQ" source="uml2.extensions">
+          <details xmi:id="_8xyYBIqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#UseCase"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_eMhewIqjEdmEu6OwhqPRUQ" name="UseCase_Manage" memberEnd="_eMhewYqjEdmEu6OwhqPRUQ _eMhew4qjEdmEu6OwhqPRUQ">
+      <eAnnotations xmi:id="_8xyYBYqjEdmEu6OwhqPRUQ" source="uml2.extensions">
+        <details xmi:id="_8xyYBoqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_eMhewYqjEdmEu6OwhqPRUQ" name="extension_Manage" type="_czHb0IqjEdmEu6OwhqPRUQ" aggregation="composite" association="_eMhewIqjEdmEu6OwhqPRUQ">
+        <eAnnotations xmi:id="_8xyYB4qjEdmEu6OwhqPRUQ" source="uml2.extensions">
+          <details xmi:id="_8xyYCIqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_jhTyIIqjEdmEu6OwhqPRUQ" name="Prototype">
+      <eAnnotations xmi:id="_8xyYC4qjEdmEu6OwhqPRUQ" source="uml2.extensions">
+        <details xmi:id="_8xyYDIqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_k9Gas4qjEdmEu6OwhqPRUQ" name="base_Package" association="_k9GasIqjEdmEu6OwhqPRUQ">
+        <eAnnotations xmi:id="_8xyYDYqjEdmEu6OwhqPRUQ" source="uml2.extensions">
+          <details xmi:id="_8xyYDoqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_k9GasIqjEdmEu6OwhqPRUQ" name="Package_Prototype" memberEnd="_k9GasYqjEdmEu6OwhqPRUQ _k9Gas4qjEdmEu6OwhqPRUQ">
+      <eAnnotations xmi:id="_8xyYD4qjEdmEu6OwhqPRUQ" source="uml2.extensions">
+        <details xmi:id="_8xyYEIqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_k9GasYqjEdmEu6OwhqPRUQ" name="extension_Prototype" type="_jhTyIIqjEdmEu6OwhqPRUQ" aggregation="composite" association="_k9GasIqjEdmEu6OwhqPRUQ">
+        <eAnnotations xmi:id="_8xyYEYqjEdmEu6OwhqPRUQ" source="uml2.extensions">
+          <details xmi:id="_8xyYEoqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_uoZbUIqjEdmEu6OwhqPRUQ" name="SystemVision">
+      <eAnnotations xmi:id="_8xyYFYqjEdmEu6OwhqPRUQ" source="uml2.extensions">
+        <details xmi:id="_8xyYFoqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_w7xMI4qjEdmEu6OwhqPRUQ" name="base_Package" association="_w7xMIIqjEdmEu6OwhqPRUQ">
+        <eAnnotations xmi:id="_8xyYF4qjEdmEu6OwhqPRUQ" source="uml2.extensions">
+          <details xmi:id="_8xyYGIqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_w7xMIIqjEdmEu6OwhqPRUQ" name="Package_SystemVision" memberEnd="_w7xMIYqjEdmEu6OwhqPRUQ _w7xMI4qjEdmEu6OwhqPRUQ">
+      <eAnnotations xmi:id="_8xyYGYqjEdmEu6OwhqPRUQ" source="uml2.extensions">
+        <details xmi:id="_8xyYGoqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_w7xMIYqjEdmEu6OwhqPRUQ" name="extension_SystemVision" type="_uoZbUIqjEdmEu6OwhqPRUQ" aggregation="composite" association="_w7xMIIqjEdmEu6OwhqPRUQ">
+        <eAnnotations xmi:id="_8xyYG4qjEdmEu6OwhqPRUQ" source="uml2.extensions">
+          <details xmi:id="_8xyYHIqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_xhUJMIqjEdmEu6OwhqPRUQ" name="Requirement">
+      <eAnnotations xmi:id="_8xyYH4qjEdmEu6OwhqPRUQ" source="uml2.extensions">
+        <details xmi:id="_8xyYIIqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_0EyLg4qjEdmEu6OwhqPRUQ" name="base_Class" association="_0EyLgIqjEdmEu6OwhqPRUQ">
+        <eAnnotations xmi:id="_8xyYIYqjEdmEu6OwhqPRUQ" source="uml2.extensions">
+          <details xmi:id="_8xyYIoqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_0EyLgIqjEdmEu6OwhqPRUQ" name="Class_Requirement" memberEnd="_0EyLgYqjEdmEu6OwhqPRUQ _0EyLg4qjEdmEu6OwhqPRUQ">
+      <eAnnotations xmi:id="_8xyYI4qjEdmEu6OwhqPRUQ" source="uml2.extensions">
+        <details xmi:id="_8xyYJIqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_0EyLgYqjEdmEu6OwhqPRUQ" name="extension_Requirement" type="_xhUJMIqjEdmEu6OwhqPRUQ" aggregation="composite" association="_0EyLgIqjEdmEu6OwhqPRUQ">
+        <eAnnotations xmi:id="_8xyYJYqjEdmEu6OwhqPRUQ" source="uml2.extensions">
+          <details xmi:id="_8xyYJoqjEdmEu6OwhqPRUQ" key="addedInVersion" value="6"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_ub9EQItzEdmLusw0lbDuXA" name="Requirements">
+      <eAnnotations xmi:id="_yBSMSotzEdmLusw0lbDuXA" source="uml2.extensions">
+        <details xmi:id="_yBSMS4tzEdmLusw0lbDuXA" key="addedInVersion" value="7"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_xO67I4tzEdmLusw0lbDuXA" name="base_Package" association="_xO67IItzEdmLusw0lbDuXA">
+        <eAnnotations xmi:id="_yBSMTItzEdmLusw0lbDuXA" source="uml2.extensions">
+          <details xmi:id="_yBSMTYtzEdmLusw0lbDuXA" key="addedInVersion" value="7"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Package"/>
+      </ownedAttribute>
+      <icon xmi:id="_nGiRMAW9Ed6M6qEpqrl06g">
+        <eAnnotations xmi:id="_n6ihQgW9Ed6M6qEpqrl06g" source="uml2.extensions">
+          <details xmi:id="_n6ihQwW9Ed6M6qEpqrl06g" key="addedInVersion" value="13"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_xO67IItzEdmLusw0lbDuXA" name="Package_Requirements" memberEnd="_xO67IYtzEdmLusw0lbDuXA _xO67I4tzEdmLusw0lbDuXA">
+      <eAnnotations xmi:id="_yBSMTotzEdmLusw0lbDuXA" source="uml2.extensions">
+        <details xmi:id="_yBSMT4tzEdmLusw0lbDuXA" key="addedInVersion" value="7"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_xO67IYtzEdmLusw0lbDuXA" name="extension_Requirements" type="_ub9EQItzEdmLusw0lbDuXA" aggregation="composite" association="_xO67IItzEdmLusw0lbDuXA">
+        <eAnnotations xmi:id="_yBSMUItzEdmLusw0lbDuXA" source="uml2.extensions">
+          <details xmi:id="_yBSMUYtzEdmLusw0lbDuXA" key="addedInVersion" value="7"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_JxWvIIt0EdmLusw0lbDuXA" name="Boundary">
+      <eAnnotations xmi:id="_RRnbsIt0EdmLusw0lbDuXA" source="uml2.extensions">
+        <details xmi:id="_RRnbsYt0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_LdPCI4t0EdmLusw0lbDuXA" name="base_Class" association="_LdPCIIt0EdmLusw0lbDuXA">
+        <eAnnotations xmi:id="_RRnbsot0EdmLusw0lbDuXA" source="uml2.extensions">
+          <details xmi:id="_RRnbs4t0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+      <icon xmi:id="_nGiRMgW9Ed6M6qEpqrl06g">
+        <eAnnotations xmi:id="_n6rq8AW9Ed6M6qEpqrl06g" source="uml2.extensions">
+          <details xmi:id="_n6rq8QW9Ed6M6qEpqrl06g" key="addedInVersion" value="13"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_LdPCIIt0EdmLusw0lbDuXA" name="Class_Boundary" memberEnd="_LdPCIYt0EdmLusw0lbDuXA _LdPCI4t0EdmLusw0lbDuXA">
+      <eAnnotations xmi:id="_RRnbtIt0EdmLusw0lbDuXA" source="uml2.extensions">
+        <details xmi:id="_RRnbtYt0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_LdPCIYt0EdmLusw0lbDuXA" name="extension_Boundary" type="_JxWvIIt0EdmLusw0lbDuXA" aggregation="composite" association="_LdPCIIt0EdmLusw0lbDuXA">
+        <eAnnotations xmi:id="_RRnbtot0EdmLusw0lbDuXA" source="uml2.extensions">
+          <details xmi:id="_RRnbt4t0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_MLbk4It0EdmLusw0lbDuXA" name="Control">
+      <eAnnotations xmi:id="_RRnbuot0EdmLusw0lbDuXA" source="uml2.extensions">
+        <details xmi:id="_RRnbu4t0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_NqWZ84t0EdmLusw0lbDuXA" name="base_Class" association="_NqWZ8It0EdmLusw0lbDuXA">
+        <eAnnotations xmi:id="_RRnbvIt0EdmLusw0lbDuXA" source="uml2.extensions">
+          <details xmi:id="_RRnbvYt0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+      <icon xmi:id="_nGrbIAW9Ed6M6qEpqrl06g">
+        <eAnnotations xmi:id="_n6rq8gW9Ed6M6qEpqrl06g" source="uml2.extensions">
+          <details xmi:id="_n6rq8wW9Ed6M6qEpqrl06g" key="addedInVersion" value="13"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_NqWZ8It0EdmLusw0lbDuXA" name="Class_Control" memberEnd="_NqWZ8Yt0EdmLusw0lbDuXA _NqWZ84t0EdmLusw0lbDuXA">
+      <eAnnotations xmi:id="_RRnbvot0EdmLusw0lbDuXA" source="uml2.extensions">
+        <details xmi:id="_RRnbv4t0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_NqWZ8Yt0EdmLusw0lbDuXA" name="extension_Control" type="_MLbk4It0EdmLusw0lbDuXA" aggregation="composite" association="_NqWZ8It0EdmLusw0lbDuXA">
+        <eAnnotations xmi:id="_RRnbwIt0EdmLusw0lbDuXA" source="uml2.extensions">
+          <details xmi:id="_RRnbwYt0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_OJM5IIt0EdmLusw0lbDuXA" name="Entity">
+      <eAnnotations xmi:id="_RRnbxIt0EdmLusw0lbDuXA" source="uml2.extensions">
+        <details xmi:id="_RRnbxYt0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_Q0HnQ4t0EdmLusw0lbDuXA" name="base_Class" association="_Q0HnQIt0EdmLusw0lbDuXA">
+        <eAnnotations xmi:id="_RRnbxot0EdmLusw0lbDuXA" source="uml2.extensions">
+          <details xmi:id="_RRnbx4t0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+      <icon xmi:id="_nGrbIgW9Ed6M6qEpqrl06g">
+        <eAnnotations xmi:id="_n6rq9AW9Ed6M6qEpqrl06g" source="uml2.extensions">
+          <details xmi:id="_n6rq9QW9Ed6M6qEpqrl06g" key="addedInVersion" value="13"/>
+        </eAnnotations>
+      </icon>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_Q0HnQIt0EdmLusw0lbDuXA" name="Class_Entity" memberEnd="_Q0HnQYt0EdmLusw0lbDuXA _Q0HnQ4t0EdmLusw0lbDuXA">
+      <eAnnotations xmi:id="_RRnbyIt0EdmLusw0lbDuXA" source="uml2.extensions">
+        <details xmi:id="_RRnbyYt0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_Q0HnQYt0EdmLusw0lbDuXA" name="extension_Entity" type="_OJM5IIt0EdmLusw0lbDuXA" aggregation="composite" association="_Q0HnQIt0EdmLusw0lbDuXA">
+        <eAnnotations xmi:id="_RRnbyot0EdmLusw0lbDuXA" source="uml2.extensions">
+          <details xmi:id="_RRnby4t0EdmLusw0lbDuXA" key="addedInVersion" value="8"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_T49RQIt0EdmLusw0lbDuXA" name="includeRequirement">
+      <eAnnotations xmi:id="_XgFI8It0EdmLusw0lbDuXA" source="uml2.extensions">
+        <details xmi:id="_XgFI8Yt0EdmLusw0lbDuXA" key="addedInVersion" value="9"/>
+      </eAnnotations>
+      <ownedAttribute xmi:id="_V4XkQ4t0EdmLusw0lbDuXA" name="base_Dependency" association="_V4XkQIt0EdmLusw0lbDuXA">
+        <eAnnotations xmi:id="_XgOS4It0EdmLusw0lbDuXA" source="uml2.extensions">
+          <details xmi:id="_XgOS4Yt0EdmLusw0lbDuXA" key="addedInVersion" value="9"/>
+        </eAnnotations>
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_V4XkQIt0EdmLusw0lbDuXA" name="Dependency_traceToRequirement" memberEnd="_V4XkQYt0EdmLusw0lbDuXA _V4XkQ4t0EdmLusw0lbDuXA">
+      <eAnnotations xmi:id="_XgOS4ot0EdmLusw0lbDuXA" source="uml2.extensions">
+        <details xmi:id="_XgOS44t0EdmLusw0lbDuXA" key="addedInVersion" value="9"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_V4XkQYt0EdmLusw0lbDuXA" name="extension_traceToRequirement" type="_T49RQIt0EdmLusw0lbDuXA" aggregation="composite" association="_V4XkQIt0EdmLusw0lbDuXA">
+        <eAnnotations xmi:id="_XgOS5It0EdmLusw0lbDuXA" source="uml2.extensions">
+          <details xmi:id="_XgOS5Yt0EdmLusw0lbDuXA" key="addedInVersion" value="9"/>
+        </eAnnotations>
+      </ownedEnd>
+    </packagedElement>
+    <profileApplication xmi:id="_LZjAxGO7EdmtRo1knqqzCA">
+      <eAnnotations xmi:id="_LZjAxWO7EdmtRo1knqqzCA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/ProfileBase.epx#_IfFYQMmBEdqBcN1R6EvWUw?ProfileBase/ProfileBase?"/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_7K07xoqQEdmYWbj4QyqqPQ" source="uml2.extensions">
+        <details xmi:id="_7K07x4qQEdmYWbj4QyqqPQ" key="addedInVersion" value="1"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/ProfileBase.epx#_bFUAMdWLEdiy4IqP8whjFA?ProfileBase?"/>
+    </profileApplication>
+  </uml:Profile>
+  <ProfileBase:ExtendedImage xmi:id="_nGYgMQW9Ed6M6qEpqrl06g" data="424DF604000000000000360000002800000015000000130000000100180000000000C0040000C40E0000C40E00000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFF0000FFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFF0000FFFFFFFFFF0040FF00400000FFFF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFF0000FFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FF0000FF0000FF0000FF0000FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF0000FFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FF0000FF0000FFFFFFFF0000FF0000FF0000FFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FF0000FF0000FFFFFFFFFFFFFFFFFFFF0000FF0000FF0000FFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FF0000FFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FF0000FF0000FFFFFFFFFFFFFFFFFFFF0000FF0000FF0000FFFFFFFFFFFFFF000000FF0000FF0000FF0000FF0000FF0000FF0000FFFFFFFFFFFFFFFFFFFFFFFFFF0000FF0000FF0000FFFFFFFF0000FF0000FF0000FFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FF0000FF0000FF0000FF0000FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF0000FF0000FF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF0000FF0000FF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF0040FF0040FF0040FF0040FF0040FF0040FF0040FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00" usageHint="Icon" imageName="comet_SystemBoundaryModel_icon.bmp" base_Image="_nGYgMAW9Ed6M6qEpqrl06g"/>
+  <ProfileBase:ExtendedImage xmi:id="_nGYgMwW9Ed6M6qEpqrl06g" data="424D160800000000000036000000280000001C000000180000000100180000000000E0070000C40E0000C40E00000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000000000000000000000000000000000000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000000000000000000000000000000000000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000000000000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF" usageHint="Icon" imageName="comet_SystemRole_icon.bmp" base_Image="_nGYgMgW9Ed6M6qEpqrl06g"/>
+  <ProfileBase:ExtendedImage xmi:id="_nGiRMQW9Ed6M6qEpqrl06g" data="424DF604000000000000360000002800000015000000130000000100180000000000C0040000C40E0000C40E00000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFF0000FFFFFFFFFFFFFF0000FFFFFFFF0000FF0000FF0000FFFFFFFF0000FF0000FF0000FF0000FFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFF0000FFFFFFFF0000FFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFF0000FF0000FF0000FF0000FFFFFFFF0000FF0000FFFFFFFFFFFFFF0000FFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFF0000FFFFFFFFFFFFFF0000FFFFFFFF0000FFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFF0000FFFFFFFFFFFFFF0000FFFFFFFF0000FFFFFFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFF0000FF0000FF0000FF0000FFFFFFFF0000FF0000FF0000FFFFFFFF0000FF0000FF0000FF0000FFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0040FF0040FF0040FF0040FF0040FF0040FF0040FF0040FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0040FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF0040FF0040FF0040FF0040FF0040FF0040FF0040FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00" usageHint="Icon" imageName="comet_Requirements_icon.bmp" base_Image="_nGiRMAW9Ed6M6qEpqrl06g"/>
+  <ProfileBase:ExtendedImage xmi:id="_nGiRMwW9Ed6M6qEpqrl06g" data="424D82040000000000007600000028000000350000002500000001000400000000000C040000C40E0000C40E000000000000000000000000000000008000008000000080800080000000800080008080000080808000C0C0C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFF00000FFFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFF0FFFFFFFFFF000FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFF00FFFFFFFF000FFFFFFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFF0FFFFFFF0000FFFFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFF0FFFFFF0000FFFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFF0FFFFF0000FFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFF0FFFF0000FFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF0000FFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF0000FFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FF0000FFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FF0000FFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF0000FFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF0000FFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFF0FFFF0000FFFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFFFF0FFFFF0000FFFFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFFFF0FFFFFF0000FFFFFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFFFFFFFF0FFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFF00FFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFF0FFFFFFFFFFFFFFF0FFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFF00000FFFFFFFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFF000" usageHint="Icon" imageName="comet_Boundary_icon.bmp" base_Image="_nGiRMgW9Ed6M6qEpqrl06g"/>
+  <ProfileBase:ExtendedImage xmi:id="_nGrbIQW9Ed6M6qEpqrl06g" data="424DBE030000000000007600000028000000250000002A000000010004000000000048030000C40E0000C40E000000000000000000000000000000008000008000000080800080000000800080008080000080808000C0C0C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFF000FFFFFFFFFFF00000FFFFF00000FFFFFFFFFFF000FFFFFFFFFF0FFFFFFFFFFFFFFF0FFFFFFFFFF000FFFFFFFF00FFFFFFFFFFFFFFFFF00FFFFFFFF000FFFFFFF0FFFFFFFFFFFFFFFFFFFFF0FFFFFFF000FFFFFF0FFFFFFFFFFFFFFFFFFFFFFF0FFFFFF000FFFFF0FFFFFFFFFFFFFFFFFFFFFFFFF0FFFFF000FFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFF0FFFF000FFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF000FFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF000FF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FF000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000FF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FF000FFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF000FFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF000FFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFF0FFFF000FFFFF0FFFFFFFFFFFFFFFFFFFFFFFFF0FFFFF000FFFFFF0FFFFFFFFFFFFFFFFFFFFFFF0FFFFFF000FFFFFFF0FFFFFFFFFF00FFFFFFFFF0FFFFFFF000FFFFFFFF00FFFFFF00FFFFFFFFF00FFFFFFFF000FFFFFFFFFF0FFF00FFFFFFFFFF0FFFFFFFFFF000FFFFFFFFFFF00000FFFFF00000FFFFFFFFFFF000FFFFFFFFFF00000000000000000FFFFFFFFFF000FFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFF000FFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFF000" usageHint="Icon" imageName="comet_Control_icon.bmp" base_Image="_nGrbIAW9Ed6M6qEpqrl06g"/>
+  <ProfileBase:ExtendedImage xmi:id="_nGrbIwW9Ed6M6qEpqrl06g" data="424D6E03000000000000760000002800000025000000260000000100040000000000F8020000C40E0000C40E000000000000000000000000000000008000008000000080800080000000800080008080000080808000C0C0C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF000000000000000000000000000000000000000000FFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFF000FFFFFFFFFFF00000FFFFF00000FFFFFFFFFFF000FFFFFFFFFF0FFFFFFFFFFFFFFF0FFFFFFFFFF000FFFFFFFF00FFFFFFFFFFFFFFFFF00FFFFFFFF000FFFFFFF0FFFFFFFFFFFFFFFFFFFFF0FFFFFFF000FFFFFF0FFFFFFFFFFFFFFFFFFFFFFF0FFFFFF000FFFFF0FFFFFFFFFFFFFFFFFFFFFFFFF0FFFFF000FFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFF0FFFF000FFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF000FFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF000FF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FF000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0F000FF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FF000FFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF000FFF0FFFFFFFFFFFFFFFFFFFFFFFFFFFFF0FFF000FFFF0FFFFFFFFFFFFFFFFFFFFFFFFFFF0FFFF000FFFFF0FFFFFFFFFFFFFFFFFFFFFFFFF0FFFFF000FFFFFF0FFFFFFFFFFFFFFFFFFFFFFF0FFFFFF000FFFFFFF0FFFFFFFFFFFFFFFFFFFFF0FFFFFFF000FFFFFFFF00FFFFFFFFFFFFFFFFF00FFFFFFFF000FFFFFFFFFF0FFFFFFFFFFFFFFF0FFFFFFFFFF000FFFFFFFFFFF00000FFFFF00000FFFFFFFFFFF000FFFFFFFFFFFFFFFF00000FFFFFFFFFFFFFFFF000" usageHint="Icon" imageName="comet_Entity_icon.bmp" base_Image="_nGrbIgW9Ed6M6qEpqrl06g"/>
+</xmi:XMI>

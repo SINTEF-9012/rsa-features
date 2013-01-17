@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+	id="org.sintef.rsm.comet.bm.template"
+   	name="COMET Business Model Template (Plugin)"
+   	version="1.2.0"
+   	provider-name="SINTEF ICT">
+   	
+  	<requires>
+    	<import plugin="com.ibm.xtools.modeler.ui.wizards"/>
+  	</requires>
+
+<!--	<extension
+    	point="com.ibm.xtools.modeler.ui.wizards.template">
+    	<directory
+    		path="templates"/>
+   	</extension>-->
+
+   	<extension
+   	  	point="com.ibm.xtools.common.ui.wizards.newModelWizard">
+        <templateDirectory
+         	path="templates"/>
+        <category
+        	id="org.sintef.rsm.comet.category"
+        	label="COMET Modelling"/>
+        <templateCategoryBinding
+        	categoryRef="org.sintef.rsm.comet.category">
+        	<template
+        		ref="org.sintef.rsm.comet.bm.template.COMETBusinessTemplate"
+        		match="equals"/>
+        </templateCategoryBinding>
+   	</extension>
+
+</plugin>
